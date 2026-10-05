@@ -82,7 +82,7 @@ Die Dokumentation zur Konfiguration und Anwendung des Kartenlesers befindet sich
 
 ```text
 
-Kartenleser\_TWN4DevPack492\_1/
+Kartenleser\\\_TWN4DevPack492\\\_1/
 
 ```
 
@@ -145,6 +145,4 @@ Projektvernissage/
 
 
 !\[Außenansicht der Ladesäule](Sonstiges/Bilder/Ladesaeule\_außen.png)
-
-
 
