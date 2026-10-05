@@ -22,11 +22,7 @@ Sowohl das **Anwendermanual** als auch die **Entwicklerdokumentation** sind in d
 
 Die Programmierung der Ladesäule erfolgte mit **Node-RED**, einem grafischen, flow-basierten Programmiertool.
 
-Der für das Projekt verwendete Node-RED-Flow befindet sich im Ordner:
-
-```text
-Node-red/
-```
+Der für das Projekt verwendete Node-RED-Flow befindet sich im Ordner `Node-red/`
 
 ### 3D-Druck
 
@@ -37,11 +33,7 @@ Im Ordner `3D-Druck/` befinden sich die CAD-Dateien für:
 
 ### Kartenleser
 
-Die Dokumentation zur Konfiguration und Anwendung des Kartenlesers befindet sich im Ordner:
-
-```text
-Kartenleser_TWN4DevPack492_1/
-```
+Die Dokumentation zur Konfiguration und Anwendung des Kartenlesers befindet sich im Ordner `Kartenleser_TWN4DevPack492_1/`
 
 Der dort enthaltene Inhalt basiert auf öffentlich zugänglichen Daten des Herstellers **ELATEC**.
 
@@ -51,9 +43,7 @@ Projekte müssen an der HM im Rahmen der **Projektvernissage** vorgestellt werde
 
 Die dazugehörigen Dokumente befinden sich im Ordner:
 
-```text
-Projektvernissage/
-```
+`Projektvernissage/`
 
 ## Bilder
 
