@@ -1,0 +1,3676 @@
+[
+    {
+        "id": "8487e97a78c3f8bc",
+        "type": "tab",
+        "label": "Kommunikation",
+        "disabled": false,
+        "info": "# Kommunikation\nDieser Flow liest die Daten der Messgeräte und EVSE aus und gibt neue Ladelimits auch an die EVSE weiter.",
+        "env": []
+    },
+    {
+        "id": "74d23660ddb14a97",
+        "type": "group",
+        "z": "8487e97a78c3f8bc",
+        "name": "Auto-Reload Anzeigeseite",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "01ea72f4c69dffc7",
+            "273a0864793a6352"
+        ],
+        "x": 74,
+        "y": 1179,
+        "w": 352,
+        "h": 82
+    },
+    {
+        "id": "9c729ed259a7762c",
+        "type": "group",
+        "z": "8487e97a78c3f8bc",
+        "name": "EVSE auslesen",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "72c525a3ec9a6376",
+            "a676bfe680a6be68",
+            "96a4f28ddf32a62b",
+            "0c89258579c8df37",
+            "6809b54c4cf1d769",
+            "7dc9fe02f2fdb72e",
+            "538e859383190ee4",
+            "1c5c02ba3905ae3a",
+            "d0e85ade88cd4309",
+            "159e9e5633c3f432",
+            "7749058331add843",
+            "365cae8cb2f9e639",
+            "27dbec73e49e915a",
+            "88393684ef3e4efd",
+            "36fa8be20e4f150e",
+            "fd9568ef8a1c3497",
+            "b3ddf86273e01af3",
+            "dc897ec24c3f176c",
+            "48537626b30782b2",
+            "cdedae0f2dbe3198"
+        ],
+        "x": 74,
+        "y": 619,
+        "w": 932,
+        "h": 542
+    },
+    {
+        "id": "a210af185fa5e705",
+        "type": "group",
+        "z": "8487e97a78c3f8bc",
+        "name": "Janitza UMG 604",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9d006d518b4cbf1e",
+            "f8a565d0c4e04a78",
+            "9d1bebc58b2769e8",
+            "c0e20db8edde8dcb",
+            "f4392f80dadf8b0a",
+            "b74d7a490509b0a3",
+            "84211683b8ab13f9",
+            "9ab573076d431b83",
+            "8e4a8fc6e9e2eb8f",
+            "669e429e3926967b",
+            "cff05ad9bcf2c572",
+            "3dc57c4d7d4c6a75",
+            "3e5b558463801314",
+            "151bef9da79f260d",
+            "4ec5439ce5dcd2dd",
+            "db81e02198356eca"
+        ],
+        "x": 74,
+        "y": 219,
+        "w": 1432,
+        "h": 362
+    },
+    {
+        "id": "dc1f42e83f64aef1",
+        "type": "group",
+        "z": "8487e97a78c3f8bc",
+        "name": "EVSE-Laden Dev-Interface Stop/Start",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c8aab295501d2ac6",
+            "babd4e2833bbc6f0",
+            "c393afd948774e2e",
+            "64c5fabf9a0120fa",
+            "f566df9da2fe28c8",
+            "2f0b839d92d2443e",
+            "6fa605a098427036",
+            "a7406449505cc4a0",
+            "88aa368648633207",
+            "e665653d7d87ca0a",
+            "fd5044713314dda7",
+            "fb558ae8f9bb838b",
+            "b6f8af7e701c20b3",
+            "1f5ba28a963840bf",
+            "e350bc0f684bad68",
+            "506e5bbc3fa4f378",
+            "1a4b6cfdde374928",
+            "d3dcc305f0abc623",
+            "119f99e2cda29604",
+            "ca40b444d5637e32",
+            "580b5673d7e9ecf3",
+            "6f795302add62b7f",
+            "9143a73eb5d31bdd",
+            "b9128e5063ccd4bf",
+            "06b5ea83047133be",
+            "f3aa9ae197163472"
+        ],
+        "x": 1554,
+        "y": -1,
+        "w": 692,
+        "h": 482
+    },
+    {
+        "id": "ea088c4d38ed3585",
+        "type": "group",
+        "z": "8487e97a78c3f8bc",
+        "name": "Manuelle Steuerung",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "764c3508bcd73fae",
+            "da317696ed5f2e4e",
+            "5c9875b3640a38fe",
+            "837bb558890d5b81",
+            "3a790662e04ff811",
+            "d7f08524f2e261fd",
+            "19e7595715e35743",
+            "1ef15296a9f8df4b",
+            "e960d12d85df86d6",
+            "4d8ac76c3da3443b",
+            "587834506aa9b3f7",
+            "6e68555bbf1da1ce",
+            "ed577abcdd176b39",
+            "fa67d78a2ef5ec1b",
+            "7e321d6b87721b03",
+            "bf0d7f1043043f13",
+            "e34cbb49e37c2f2e",
+            "3e8ebde18f3db016",
+            "1fead5e8346e1782",
+            "336d0940a280ff1c"
+        ],
+        "x": 1534,
+        "y": 519,
+        "w": 1172,
+        "h": 302
+    },
+    {
+        "id": "98bf4896a031d769",
+        "type": "group",
+        "z": "8487e97a78c3f8bc",
+        "name": "Initialisierung",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ff3245b5539f5203",
+            "e3197e2930b81ab5",
+            "6bcc267ec73d5c4d",
+            "aa61cd7597f5d363"
+        ],
+        "x": 74,
+        "y": 1279,
+        "w": 552,
+        "h": 122
+    },
+    {
+        "id": "6e014715cc6f2323",
+        "type": "group",
+        "z": "8487e97a78c3f8bc",
+        "name": "Optimierung",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "a81bf2c203247d34",
+            "304b71f8a2a4f8b1",
+            "d475e5ae1041a30e",
+            "d43a3f3bb276c390",
+            "17e70efe0b595429",
+            "6eaedec45aaa7a52",
+            "986b5bbcfac7e422",
+            "d6592191b34ee410",
+            "92ab714a31d1320f",
+            "2a12a67295c81977",
+            "ed30caa4b08737c1",
+            "de047292b28020de",
+            "9aa2cb6bdd62c181",
+            "73845161137c91fd",
+            "8145c0b7bbc14cda",
+            "8b9123dd70fa469a",
+            "eb42893e99d92846",
+            "993a5e189fba193e",
+            "adf4adf722809f7d",
+            "4b61aab37f9b3370",
+            "4b885bded91b3b1f",
+            "1846ba2fb4248b5a",
+            "dada26388e26138a",
+            "0bcd2bdf98ef9911"
+        ],
+        "x": 1034,
+        "y": 939,
+        "w": 1752,
+        "h": 442
+    },
+    {
+        "id": "9ab573076d431b83",
+        "type": "modbus-read",
+        "z": "8487e97a78c3f8bc",
+        "g": "a210af185fa5e705",
+        "name": "Janitza UMG 604 Datum & Uhrzeit",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "6",
+        "quantity": "7",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "4c4d20a2ae621360",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 260,
+        "y": 400,
+        "wires": [
+            [],
+            [
+                "8e4a8fc6e9e2eb8f"
+            ]
+        ]
+    },
+    {
+        "id": "8e4a8fc6e9e2eb8f",
+        "type": "buffer-parser",
+        "z": "8487e97a78c3f8bc",
+        "g": "a210af185fa5e705",
+        "name": "Datum & Uhrzeit auflösen",
+        "data": "payload.buffer",
+        "dataType": "msg",
+        "specification": "spec",
+        "specificationType": "ui",
+        "items": [
+            {
+                "type": "int16be",
+                "name": "day",
+                "offset": 0,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "month",
+                "offset": 2,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "year",
+                "offset": 4,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "hour",
+                "offset": 6,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "min",
+                "offset": 8,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "sec",
+                "offset": 10,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "weekday",
+                "offset": 12,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            }
+        ],
+        "swap1": "",
+        "swap2": "",
+        "swap3": "",
+        "swap1Type": "swap",
+        "swap2Type": "swap",
+        "swap3Type": "swap",
+        "msgProperty": "payload",
+        "msgPropertyType": "str",
+        "resultType": "keyvalue",
+        "resultTypeType": "return",
+        "multipleResult": false,
+        "fanOutMultipleResult": false,
+        "setTopic": true,
+        "outputs": 1,
+        "x": 590,
+        "y": 400,
+        "wires": [
+            [
+                "3dc57c4d7d4c6a75",
+                "3e5b558463801314"
+            ]
+        ]
+    },
+    {
+        "id": "669e429e3926967b",
+        "type": "modbus-read",
+        "z": "8487e97a78c3f8bc",
+        "g": "a210af185fa5e705",
+        "name": "Janitza UMG 604 Spannungen, Ströme & Leistungen",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "1317",
+        "quantity": "24",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "4c4d20a2ae621360",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 310,
+        "y": 480,
+        "wires": [
+            [],
+            [
+                "cff05ad9bcf2c572"
+            ]
+        ]
+    },
+    {
+        "id": "cff05ad9bcf2c572",
+        "type": "buffer-parser",
+        "z": "8487e97a78c3f8bc",
+        "g": "a210af185fa5e705",
+        "name": "Spannungen, Ströme und Leistungen auflösen",
+        "data": "payload.buffer",
+        "dataType": "msg",
+        "specification": "spec",
+        "specificationType": "ui",
+        "items": [
+            {
+                "type": "floatbe",
+                "name": "V_L1",
+                "offset": 0,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "floatbe",
+                "name": "V_L2",
+                "offset": 4,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "floatbe",
+                "name": "V_L3",
+                "offset": 8,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "floatbe",
+                "name": "V_L",
+                "offset": 12,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "floatbe",
+                "name": "I_L1",
+                "offset": 16,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "floatbe",
+                "name": "I_L2",
+                "offset": 20,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "floatbe",
+                "name": "I_L3",
+                "offset": 24,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "floatbe",
+                "name": "I_L",
+                "offset": 28,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "floatbe",
+                "name": "P_L1",
+                "offset": 32,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "floatbe",
+                "name": "P_L2",
+                "offset": 36,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "floatbe",
+                "name": "P_L3",
+                "offset": 40,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "floatbe",
+                "name": "P_L",
+                "offset": 44,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            }
+        ],
+        "swap1": "",
+        "swap2": "",
+        "swap3": "",
+        "swap1Type": "swap",
+        "swap2Type": "swap",
+        "swap3Type": "swap",
+        "msgProperty": "payload",
+        "msgPropertyType": "str",
+        "resultType": "keyvalue",
+        "resultTypeType": "return",
+        "multipleResult": false,
+        "fanOutMultipleResult": false,
+        "setTopic": true,
+        "outputs": 1,
+        "x": 720,
+        "y": 480,
+        "wires": [
+            [
+                "9d006d518b4cbf1e",
+                "f8a565d0c4e04a78",
+                "151bef9da79f260d",
+                "4ec5439ce5dcd2dd"
+            ]
+        ]
+    },
+    {
+        "id": "9d006d518b4cbf1e",
+        "type": "function",
+        "z": "8487e97a78c3f8bc",
+        "g": "a210af185fa5e705",
+        "name": "Spannungen für Chart",
+        "func": "\nlet P_sum = {};\nP_sum.payload = msg.payload.P_L1 + msg.payload.P_L2 + msg.payload.P_L3;\nP_sum.topic = \"P - Summe\"\n\nreturn P_sum;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 320,
+        "wires": [
+            [
+                "9d1bebc58b2769e8"
+            ]
+        ]
+    },
+    {
+        "id": "f8a565d0c4e04a78",
+        "type": "function",
+        "z": "8487e97a78c3f8bc",
+        "g": "a210af185fa5e705",
+        "name": "Ströme für Chart",
+        "func": "var I_L1 = {};\nvar I_L2 = {};\nvar I_L3 = {};\n\nI_L1.topic = \"L1\";\nI_L2.topic = \"L2\";\nI_L3.topic = \"L3\";\n\nI_L1.payload = msg.payload.I_L1;\nI_L2.payload = msg.payload.I_L2;\nI_L3.payload = msg.payload.I_L3;\n\n\nreturn [I_L1, I_L2, I_L3];",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 400,
+        "wires": [
+            [
+                "c0e20db8edde8dcb",
+                "f4392f80dadf8b0a",
+                "fd5044713314dda7"
+            ],
+            [
+                "c0e20db8edde8dcb",
+                "b74d7a490509b0a3",
+                "b6f8af7e701c20b3"
+            ],
+            [
+                "c0e20db8edde8dcb",
+                "84211683b8ab13f9",
+                "fb558ae8f9bb838b"
+            ]
+        ]
+    },
+    {
+        "id": "9d1bebc58b2769e8",
+        "type": "ui_chart",
+        "z": "8487e97a78c3f8bc",
+        "g": "a210af185fa5e705",
+        "name": "",
+        "group": "3b82a6424f25e354",
+        "order": 0,
+        "width": "6",
+        "height": "3",
+        "label": "Gesamtleistung in W",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": "15",
+        "removeOlderPoints": "1000",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1380,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c0e20db8edde8dcb",
+        "type": "ui_chart",
+        "z": "8487e97a78c3f8bc",
+        "g": "a210af185fa5e705",
+        "name": "",
+        "group": "3b82a6424f25e354",
+        "order": 1,
+        "width": "6",
+        "height": "3",
+        "label": "Ströme in A",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": "15",
+        "removeOlderPoints": "1000",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1330,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f4392f80dadf8b0a",
+        "type": "ui_gauge",
+        "z": "8487e97a78c3f8bc",
+        "g": "a210af185fa5e705",
+        "name": "",
+        "group": "a4eae6103c1b4c80",
+        "order": 2,
+        "width": "4",
+        "height": "2",
+        "gtype": "gage",
+        "title": "L1",
+        "label": "A",
+        "format": "{{value | number:2}}A",
+        "min": 0,
+        "max": "32",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1310,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "b74d7a490509b0a3",
+        "type": "ui_gauge",
+        "z": "8487e97a78c3f8bc",
+        "g": "a210af185fa5e705",
+        "name": "",
+        "group": "a4eae6103c1b4c80",
+        "order": 2,
+        "width": "4",
+        "height": "2",
+        "gtype": "gage",
+        "title": "L2",
+        "label": "A",
+        "format": "{{value | number:2}}A",
+        "min": 0,
+        "max": "32",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1310,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "84211683b8ab13f9",
+        "type": "ui_gauge",
+        "z": "8487e97a78c3f8bc",
+        "g": "a210af185fa5e705",
+        "name": "",
+        "group": "a4eae6103c1b4c80",
+        "order": 2,
+        "width": "4",
+        "height": "2",
+        "gtype": "gage",
+        "title": "L3",
+        "label": "A",
+        "format": "{{value | number:2}}A",
+        "min": 0,
+        "max": "32",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1310,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "3dc57c4d7d4c6a75",
+        "type": "ui_text",
+        "z": "8487e97a78c3f8bc",
+        "g": "a210af185fa5e705",
+        "group": "1ffd782eb1286618",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Datum",
+        "format": "{{msg.payload.day}}.{{msg.payload.month}}.{{msg.payload.year}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 870,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "3e5b558463801314",
+        "type": "ui_text",
+        "z": "8487e97a78c3f8bc",
+        "g": "a210af185fa5e705",
+        "group": "1ffd782eb1286618",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Uhrzeit",
+        "format": "{{msg.payload.hour.toString().padStart(2,\"0\")}}:{{msg.payload.min.toString().padStart(2,\"0\")}}:{{msg.payload.sec.toString().padStart(2,\"0\")}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 880,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "a676bfe680a6be68",
+        "type": "modbus-read",
+        "z": "8487e97a78c3f8bc",
+        "g": "9c729ed259a7762c",
+        "name": "EVSE-2",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "65",
+        "dataType": "HoldingRegister",
+        "adr": "1000",
+        "quantity": "10",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "58b19c4614a3b3d3",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 170,
+        "y": 1080,
+        "wires": [
+            [],
+            [
+                "538e859383190ee4"
+            ]
+        ]
+    },
+    {
+        "id": "96a4f28ddf32a62b",
+        "type": "modbus-read",
+        "z": "8487e97a78c3f8bc",
+        "g": "9c729ed259a7762c",
+        "name": "EVSE-1",
+        "topic": "",
+        "showStatusActivities": true,
+        "logIOActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "64",
+        "dataType": "HoldingRegister",
+        "adr": "1000",
+        "quantity": "10",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "58b19c4614a3b3d3",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 170,
+        "y": 860,
+        "wires": [
+            [],
+            [
+                "0c89258579c8df37"
+            ]
+        ]
+    },
+    {
+        "id": "0c89258579c8df37",
+        "type": "buffer-parser",
+        "z": "8487e97a78c3f8bc",
+        "g": "9c729ed259a7762c",
+        "name": "decode EVSE",
+        "data": "payload.buffer",
+        "dataType": "msg",
+        "specification": "spec",
+        "specificationType": "ui",
+        "items": [
+            {
+                "type": "int16be",
+                "name": "actual_configured_amps",
+                "offset": 0,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "actual_amps",
+                "offset": 2,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "vehicle_state",
+                "offset": 4,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "current_limit",
+                "offset": 6,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "charging_switch",
+                "offset": 8,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "firmware_revision",
+                "offset": 10,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "evse_state",
+                "offset": 12,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "evse_status",
+                "offset": 14,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "error_timeout",
+                "offset": 16,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "selftest_timeout",
+                "offset": 18,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            }
+        ],
+        "swap1": "",
+        "swap2": "",
+        "swap3": "",
+        "swap1Type": "swap",
+        "swap2Type": "swap",
+        "swap3Type": "swap",
+        "msgProperty": "payload",
+        "msgPropertyType": "str",
+        "resultType": "keyvalue",
+        "resultTypeType": "return",
+        "multipleResult": false,
+        "fanOutMultipleResult": false,
+        "setTopic": true,
+        "outputs": 1,
+        "x": 380,
+        "y": 860,
+        "wires": [
+            [
+                "7dc9fe02f2fdb72e",
+                "7749058331add843",
+                "88393684ef3e4efd",
+                "b3ddf86273e01af3",
+                "36fa8be20e4f150e",
+                "a81bf2c203247d34",
+                "6f795302add62b7f",
+                "48537626b30782b2"
+            ]
+        ]
+    },
+    {
+        "id": "72c525a3ec9a6376",
+        "type": "ui_text",
+        "z": "8487e97a78c3f8bc",
+        "g": "9c729ed259a7762c",
+        "group": "1ffd782eb1286618",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "EVSE - 1:",
+        "format": "{{msg.payload.vehicle_state_string}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 840,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "6809b54c4cf1d769",
+        "type": "ui_text",
+        "z": "8487e97a78c3f8bc",
+        "g": "9c729ed259a7762c",
+        "group": "1ffd782eb1286618",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "EVSE - 1 max:",
+        "format": "{{msg.payload.current_max}}A",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 860,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "7dc9fe02f2fdb72e",
+        "type": "ui_text",
+        "z": "8487e97a78c3f8bc",
+        "g": "9c729ed259a7762c",
+        "group": "1ffd782eb1286618",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "EVSE - 1 real:",
+        "format": "{{msg.payload.actual_amps}}A",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 720,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "538e859383190ee4",
+        "type": "buffer-parser",
+        "z": "8487e97a78c3f8bc",
+        "g": "9c729ed259a7762c",
+        "name": "decode EVSE",
+        "data": "payload.buffer",
+        "dataType": "msg",
+        "specification": "spec",
+        "specificationType": "ui",
+        "items": [
+            {
+                "type": "int16be",
+                "name": "actual_configured_amps",
+                "offset": 0,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "actual_amps",
+                "offset": 2,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "vehicle_state",
+                "offset": 4,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "current_limit",
+                "offset": 6,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "charging_switch",
+                "offset": 8,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "firmware_revision",
+                "offset": 10,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "evse_state",
+                "offset": 12,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "evse_status",
+                "offset": 14,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "error_timeout",
+                "offset": 16,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            },
+            {
+                "type": "int16be",
+                "name": "selftest_timeout",
+                "offset": 18,
+                "length": 1,
+                "offsetbit": 0,
+                "scale": "1",
+                "mask": ""
+            }
+        ],
+        "swap1": "",
+        "swap2": "",
+        "swap3": "",
+        "swap1Type": "swap",
+        "swap2Type": "swap",
+        "swap3Type": "swap",
+        "msgProperty": "payload",
+        "msgPropertyType": "str",
+        "resultType": "keyvalue",
+        "resultTypeType": "return",
+        "multipleResult": false,
+        "fanOutMultipleResult": false,
+        "setTopic": true,
+        "outputs": 1,
+        "x": 400,
+        "y": 1120,
+        "wires": [
+            [
+                "159e9e5633c3f432",
+                "365cae8cb2f9e639",
+                "27dbec73e49e915a",
+                "b3ddf86273e01af3",
+                "fd9568ef8a1c3497",
+                "304b71f8a2a4f8b1",
+                "9143a73eb5d31bdd",
+                "cdedae0f2dbe3198"
+            ]
+        ]
+    },
+    {
+        "id": "1c5c02ba3905ae3a",
+        "type": "ui_text",
+        "z": "8487e97a78c3f8bc",
+        "g": "9c729ed259a7762c",
+        "group": "1ffd782eb1286618",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "EVSE - 2:",
+        "format": "{{msg.payload.vehicle_state_string}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 800,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "d0e85ade88cd4309",
+        "type": "ui_text",
+        "z": "8487e97a78c3f8bc",
+        "g": "9c729ed259a7762c",
+        "group": "1ffd782eb1286618",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "EVSE - 2 max:",
+        "format": "{{msg.payload.current_max}}A",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 900,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "159e9e5633c3f432",
+        "type": "ui_text",
+        "z": "8487e97a78c3f8bc",
+        "g": "9c729ed259a7762c",
+        "group": "1ffd782eb1286618",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "EVSE - 2 real:",
+        "format": "{{msg.payload.actual_amps}}A",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 640,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "7749058331add843",
+        "type": "function",
+        "z": "8487e97a78c3f8bc",
+        "g": "9c729ed259a7762c",
+        "name": "decode vehicle_state",
+        "func": "switch(msg.payload.vehicle_state){\n    case 1:\n        msg.payload.vehicle_state_string = \"ready\";\n        break;\n    case 2:\n        msg.payload.vehicle_state_string = \"EV present\";\n        break;\n    case 3:\n        msg.payload.vehicle_state_string = \"charging\";\n        break;\n    case 4:\n        msg.payload.vehicle_state_string = \"charging with ventialtion\";\n        break;\n    case 5:\n        msg.payload.vehicle_state_string = \"error\";\n        break;\n}\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 780,
+        "wires": [
+            [
+                "72c525a3ec9a6376"
+            ]
+        ]
+    },
+    {
+        "id": "365cae8cb2f9e639",
+        "type": "function",
+        "z": "8487e97a78c3f8bc",
+        "g": "9c729ed259a7762c",
+        "name": "decode vehicle_state",
+        "func": "switch(msg.payload.vehicle_state){\n    case 1:\n        msg.payload.vehicle_state_string = \"ready\";\n        break;\n    case 2:\n        msg.payload.vehicle_state_string = \"EV present\";\n        break;\n    case 3:\n        msg.payload.vehicle_state_string = \"charging\";\n        break;\n    case 4:\n        msg.payload.vehicle_state_string = \"charging with ventialtion\";\n        break;\n    case 5:\n        msg.payload.vehicle_state_string = \"error\";\n        break;\n}\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 1040,
+        "wires": [
+            [
+                "1c5c02ba3905ae3a"
+            ]
+        ]
+    },
+    {
+        "id": "27dbec73e49e915a",
+        "type": "function",
+        "z": "8487e97a78c3f8bc",
+        "g": "9c729ed259a7762c",
+        "name": "check current_limit",
+        "func": "if (msg.payload.current_limit <= msg.payload.actual_configured_amps) {\n    msg.payload.current_max = msg.payload.current_limit;\n}\nelse {\n    msg.payload.current_max = msg.payload.actual_configured_amps;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1080,
+        "wires": [
+            [
+                "d0e85ade88cd4309"
+            ]
+        ]
+    },
+    {
+        "id": "88393684ef3e4efd",
+        "type": "function",
+        "z": "8487e97a78c3f8bc",
+        "g": "9c729ed259a7762c",
+        "name": "check current_limit",
+        "func": "if (msg.payload.current_limit <= msg.payload.actual_configured_amps) {\n    msg.payload.current_max = msg.payload.current_limit;\n}\nelse {\n    msg.payload.current_max = msg.payload.actual_configured_amps;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 820,
+        "wires": [
+            [
+                "6809b54c4cf1d769"
+            ]
+        ]
+    },
+    {
+        "id": "01ea72f4c69dffc7",
+        "type": "ui_ui_control",
+        "z": "8487e97a78c3f8bc",
+        "g": "74d23660ddb14a97",
+        "name": "reload",
+        "events": "all",
+        "x": 350,
+        "y": 1220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "273a0864793a6352",
+        "type": "inject",
+        "z": "8487e97a78c3f8bc",
+        "g": "74d23660ddb14a97",
+        "name": "alle 15 min",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "900",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 190,
+        "y": 1220,
+        "wires": [
+            [
+                "01ea72f4c69dffc7"
+            ]
+        ]
+    },
+    {
+        "id": "c8aab295501d2ac6",
+        "type": "ui_button",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "",
+        "group": "6a296eec4d453dc9",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Laden stoppen EVSE 1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "stop",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1730,
+        "y": 40,
+        "wires": [
+            [
+                "c393afd948774e2e"
+            ]
+        ]
+    },
+    {
+        "id": "babd4e2833bbc6f0",
+        "type": "ui_button",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "",
+        "group": "6a296eec4d453dc9",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Laden starten EVSE 1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "start",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1720,
+        "y": 100,
+        "wires": [
+            [
+                "c393afd948774e2e"
+            ]
+        ]
+    },
+    {
+        "id": "c393afd948774e2e",
+        "type": "function",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "function 1",
+        "func": "if(msg.payload = \"stop\"){\n    msg.payload = [0x01,0x00];\n}\nelse if(msg.payload = \"start\"){\n    msg.payload = [0x00,0x00];\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1940,
+        "y": 40,
+        "wires": [
+            [
+                "64c5fabf9a0120fa"
+            ]
+        ]
+    },
+    {
+        "id": "64c5fabf9a0120fa",
+        "type": "modbus-write",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "EVSE-1",
+        "showStatusActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "64",
+        "dataType": "MHoldingRegisters",
+        "adr": "1004",
+        "quantity": "2",
+        "server": "58b19c4614a3b3d3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 2120,
+        "y": 40,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "a7406449505cc4a0",
+        "type": "modbus-write",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "EVSE-2",
+        "showStatusActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "65",
+        "dataType": "MHoldingRegisters",
+        "adr": "1004",
+        "quantity": "2",
+        "server": "58b19c4614a3b3d3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 2120,
+        "y": 160,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "2f0b839d92d2443e",
+        "type": "function",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "function 3",
+        "func": "if(msg.payload = \"stop\"){\n    msg.payload = [0x01,0x00];\n}\nelse if(msg.payload = \"start\"){\n    msg.payload = [0x00,0x00];\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1940,
+        "y": 160,
+        "wires": [
+            [
+                "a7406449505cc4a0"
+            ]
+        ]
+    },
+    {
+        "id": "f566df9da2fe28c8",
+        "type": "ui_button",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "",
+        "group": "6a296eec4d453dc9",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Laden stoppen EVSE 2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "stop",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1730,
+        "y": 160,
+        "wires": [
+            [
+                "2f0b839d92d2443e"
+            ]
+        ]
+    },
+    {
+        "id": "6fa605a098427036",
+        "type": "ui_button",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "",
+        "group": "6a296eec4d453dc9",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Laden starten EVSE 2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "start",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1720,
+        "y": 220,
+        "wires": [
+            [
+                "2f0b839d92d2443e"
+            ]
+        ]
+    },
+    {
+        "id": "88aa368648633207",
+        "type": "ui_text",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "group": "6a296eec4d453dc9",
+        "order": 4,
+        "width": "6",
+        "height": "3",
+        "name": "",
+        "label": "Hinweis",
+        "format": "Achtung: Das angeschlossene Auto startet den Ladevorgang nach dem stoppen wieder automatisch selbst. Zum wirklichen beenden muss der zugelassene Ladestrom auf 0 begrenzt werden!",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2020,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "764c3508bcd73fae",
+        "type": "ui_switch",
+        "z": "8487e97a78c3f8bc",
+        "g": "ea088c4d38ed3585",
+        "name": "",
+        "label": "Automatische Optimierung",
+        "tooltip": "",
+        "group": "33854bcf9409d834",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 2100,
+        "y": 560,
+        "wires": [
+            [
+                "5c9875b3640a38fe",
+                "837bb558890d5b81"
+            ]
+        ]
+    },
+    {
+        "id": "da317696ed5f2e4e",
+        "type": "change",
+        "z": "8487e97a78c3f8bc",
+        "g": "ea088c4d38ed3585",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "optimierung_nutzen",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2560,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5c9875b3640a38fe",
+        "type": "switch",
+        "z": "8487e97a78c3f8bc",
+        "g": "ea088c4d38ed3585",
+        "name": "Optimierung an",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 2340,
+        "y": 560,
+        "wires": [
+            [
+                "da317696ed5f2e4e"
+            ]
+        ]
+    },
+    {
+        "id": "837bb558890d5b81",
+        "type": "switch",
+        "z": "8487e97a78c3f8bc",
+        "g": "ea088c4d38ed3585",
+        "name": "Optimierung aus",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 2340,
+        "y": 600,
+        "wires": [
+            [
+                "3a790662e04ff811"
+            ]
+        ]
+    },
+    {
+        "id": "3a790662e04ff811",
+        "type": "change",
+        "z": "8487e97a78c3f8bc",
+        "g": "ea088c4d38ed3585",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "optimierung_nutzen",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2560,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d7f08524f2e261fd",
+        "type": "ui_slider",
+        "z": "8487e97a78c3f8bc",
+        "g": "ea088c4d38ed3585",
+        "name": "",
+        "label": "Ladelimit EVSE-1",
+        "tooltip": "",
+        "group": "33854bcf9409d834",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "32",
+        "step": 1,
+        "className": "",
+        "x": 2070,
+        "y": 660,
+        "wires": [
+            [
+                "1ef15296a9f8df4b"
+            ]
+        ]
+    },
+    {
+        "id": "19e7595715e35743",
+        "type": "ui_slider",
+        "z": "8487e97a78c3f8bc",
+        "g": "ea088c4d38ed3585",
+        "name": "",
+        "label": "Ladelimit EVSE-2",
+        "tooltip": "",
+        "group": "33854bcf9409d834",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "32",
+        "step": 1,
+        "className": "",
+        "x": 2070,
+        "y": 700,
+        "wires": [
+            [
+                "e960d12d85df86d6"
+            ]
+        ]
+    },
+    {
+        "id": "1ef15296a9f8df4b",
+        "type": "change",
+        "z": "8487e97a78c3f8bc",
+        "g": "ea088c4d38ed3585",
+        "name": "EVSE-1 manuell",
+        "rules": [
+            {
+                "t": "set",
+                "p": "evse_1_manual",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2340,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e960d12d85df86d6",
+        "type": "change",
+        "z": "8487e97a78c3f8bc",
+        "g": "ea088c4d38ed3585",
+        "name": "EVSE-2 manuell",
+        "rules": [
+            {
+                "t": "set",
+                "p": "evse_2_manual",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2340,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4d8ac76c3da3443b",
+        "type": "ui_button",
+        "z": "8487e97a78c3f8bc",
+        "g": "ea088c4d38ed3585",
+        "name": "",
+        "group": "33854bcf9409d834",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Ladelimit aktualisieren",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "reload",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 2080,
+        "y": 740,
+        "wires": [
+            [
+                "bf0d7f1043043f13"
+            ]
+        ]
+    },
+    {
+        "id": "587834506aa9b3f7",
+        "type": "modbus-write",
+        "z": "8487e97a78c3f8bc",
+        "g": "ea088c4d38ed3585",
+        "name": "EVSE-2",
+        "showStatusActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "65",
+        "dataType": "MHoldingRegisters",
+        "adr": "1000",
+        "quantity": "2",
+        "server": "58b19c4614a3b3d3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 2620,
+        "y": 780,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "6e68555bbf1da1ce",
+        "type": "modbus-write",
+        "z": "8487e97a78c3f8bc",
+        "g": "ea088c4d38ed3585",
+        "name": "EVSE-1",
+        "showStatusActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "64",
+        "dataType": "MHoldingRegisters",
+        "adr": "1000",
+        "quantity": "2",
+        "server": "58b19c4614a3b3d3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 2620,
+        "y": 740,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "ed577abcdd176b39",
+        "type": "function",
+        "z": "8487e97a78c3f8bc",
+        "g": "ea088c4d38ed3585",
+        "name": "Ladelimit holen",
+        "func": "if(!flow.optimierung_nutzen){\n    msg.payload = [flow.get(\"evse_1_manual\"), 0x00];\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2440,
+        "y": 740,
+        "wires": [
+            [
+                "6e68555bbf1da1ce",
+                "7e321d6b87721b03"
+            ]
+        ]
+    },
+    {
+        "id": "fa67d78a2ef5ec1b",
+        "type": "function",
+        "z": "8487e97a78c3f8bc",
+        "g": "ea088c4d38ed3585",
+        "name": "Ladelimit holen",
+        "func": "if(!flow.optimierung_nutzen){\n    msg.payload = [flow.get(\"evse_2_manual\"), 0x00];\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2440,
+        "y": 780,
+        "wires": [
+            [
+                "587834506aa9b3f7"
+            ]
+        ]
+    },
+    {
+        "id": "7e321d6b87721b03",
+        "type": "debug",
+        "z": "8487e97a78c3f8bc",
+        "g": "ea088c4d38ed3585",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2600,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "b3ddf86273e01af3",
+        "type": "debug",
+        "z": "8487e97a78c3f8bc",
+        "g": "9c729ed259a7762c",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "bf0d7f1043043f13",
+        "type": "delay",
+        "z": "8487e97a78c3f8bc",
+        "g": "ea088c4d38ed3585",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2270,
+        "y": 740,
+        "wires": [
+            [
+                "ed577abcdd176b39",
+                "fa67d78a2ef5ec1b"
+            ]
+        ]
+    },
+    {
+        "id": "151bef9da79f260d",
+        "type": "change",
+        "z": "8487e97a78c3f8bc",
+        "g": "a210af185fa5e705",
+        "name": "Stromwerte in flow-state schreiben",
+        "rules": [
+            {
+                "t": "set",
+                "p": "I_L1",
+                "pt": "flow",
+                "to": "payload.I_L1",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "I_L2",
+                "pt": "flow",
+                "to": "payload.I_L2",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "I_L3",
+                "pt": "flow",
+                "to": "payload.I_L3",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1060,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "36fa8be20e4f150e",
+        "type": "change",
+        "z": "8487e97a78c3f8bc",
+        "g": "9c729ed259a7762c",
+        "name": "Vehicle-State in flow-State schreiben",
+        "rules": [
+            {
+                "t": "set",
+                "p": "vehicle_1_state",
+                "pt": "flow",
+                "to": "payload.vehicle_state",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "vehicle_1_actual_amps",
+                "pt": "flow",
+                "to": "payload.actual_amps",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 630,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fd9568ef8a1c3497",
+        "type": "change",
+        "z": "8487e97a78c3f8bc",
+        "g": "9c729ed259a7762c",
+        "name": "Vehicle-State in flow-State schreiben",
+        "rules": [
+            {
+                "t": "set",
+                "p": "vehicle_2_state",
+                "pt": "flow",
+                "to": "payload.vehicle_state",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "vehicle_2_actual_amps",
+                "pt": "flow",
+                "to": "payload.actual_amps",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ff3245b5539f5203",
+        "type": "inject",
+        "z": "8487e97a78c3f8bc",
+        "g": "98bf4896a031d769",
+        "name": "Start-Ladelimits setzen",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "13",
+        "payloadType": "num",
+        "x": 230,
+        "y": 1320,
+        "wires": [
+            [
+                "e3197e2930b81ab5"
+            ]
+        ]
+    },
+    {
+        "id": "e3197e2930b81ab5",
+        "type": "change",
+        "z": "8487e97a78c3f8bc",
+        "g": "98bf4896a031d769",
+        "name": "Ladelimits setzen",
+        "rules": [
+            {
+                "t": "set",
+                "p": "evse_1_optimized",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "evse_2_optimized",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 510,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a81bf2c203247d34",
+        "type": "rbe",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "filter vehicle-1 state change",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload.vehicle_state",
+        "topi": "topic",
+        "x": 1180,
+        "y": 1020,
+        "wires": [
+            [
+                "d475e5ae1041a30e",
+                "d43a3f3bb276c390",
+                "17e70efe0b595429",
+                "6eaedec45aaa7a52",
+                "986b5bbcfac7e422",
+                "73845161137c91fd"
+            ]
+        ]
+    },
+    {
+        "id": "304b71f8a2a4f8b1",
+        "type": "rbe",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "filter vehicle-2 state change",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload.vehicle_state",
+        "topi": "topic",
+        "x": 1180,
+        "y": 1240,
+        "wires": [
+            [
+                "92ab714a31d1320f",
+                "d6592191b34ee410",
+                "2a12a67295c81977",
+                "ed30caa4b08737c1",
+                "de047292b28020de",
+                "73845161137c91fd"
+            ]
+        ]
+    },
+    {
+        "id": "9aa2cb6bdd62c181",
+        "type": "inject",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "alle 5 s",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 1900,
+        "y": 1340,
+        "wires": [
+            [
+                "73845161137c91fd"
+            ]
+        ]
+    },
+    {
+        "id": "73845161137c91fd",
+        "type": "function",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "Optimieren",
+        "func": "// Fallunterscheidung Autos angeschlossen:\n\nlet max_gesamtstrom = 32;\n\nlet autos_angeschlossen = [false, false];\nif (flow.get(\"vehicle_1_state\") > 1 && flow.get(\"vehicle_1_state\") < 5){\n    autos_angeschlossen[0] = true;\n}\n\nif (flow.get(\"vehicle_2_state\") > 1 && flow.get(\"vehicle_2_state\") < 5){\n    autos_angeschlossen[1] = true;\n}\n\nlet strom_spielraum = max_gesamtstrom - Math.max(flow.get(\"I_L1\"), flow.get(\"I_L2\"), flow.get(\"I_L3\"));\n//node.warn(\"Aktueller Spielraum: \" + strom_spielraum);\nlet spielraum_1 = 0;\nlet spielraum_2 = 0;\n\n\n// Ladelimits berechnen\n// ToDo: Logik für wenn ein Auto nicht den kompletten verfügbaren Strom nutzt?\nif(autos_angeschlossen[0] && autos_angeschlossen[1]){\n    // Beide Autos angeschlossen -> Spielraum auf beide geben\n    spielraum_1 = Math.round(strom_spielraum - Math.round(strom_spielraum/2));\n    spielraum_2 = Math.round(strom_spielraum - spielraum_1);\n\n} else if (autos_angeschlossen[0] && !autos_angeschlossen[1]){\n    // Nur Auto 1 angeschlossen -> Spielraum komplett an Auto 1\n    spielraum_1 = Math.round(strom_spielraum);\n    flow.set(\"evse_2_optimized\", 0);\n\n} else if (!autos_angeschlossen[0] && autos_angeschlossen[1]){\n    // Nur Auto 2 angeschlossen -> Spielraum komplett an Auto 2\n    spielraum_2 = Math.round(strom_spielraum);\n    flow.set(\"evse_1_optimized\", 0);\n\n} else {\n    // Kein TYP-2-Fahrzeug angeschlossen, Regelung nicht möglich\n\n}\n\n//node.warn(\"Neue Spielräume (vor Schutz): \" + spielraum_1 + \", \" + spielraum_2);\n\n\n\n// Schutz: Prüfen ob theoretisch freigegebener Strom das System überlasten würde\n// Nicht wirklich prüfbar, da die real gerade genommene Last nicht gemessen werden kann\n// und auch nicht von der EVSE gemeldet wird.\n\nwhile( -flow.get(\"vehicle_1_actual_amps\") + spielraum_1 - flow.get(\"vehicle_2_actual_amps\") + spielraum_2 + Math.max(flow.get(\"I_L1\"), flow.get(\"I_L2\"), flow.get(\"I_L3\")) > max_gesamtstrom){\n  // Berechneter Strom zu hoch, spielraum reduzieren\n  // node.warn(\"Strom zu hoch, Berechnung wird angepasst\");\n    if(flow.get(\"evse_1_optimized\") + spielraum_1 > 0){\n        spielraum_1 -= 1;\n    }\n    if(flow.get(\"evse_2_optimized\") + spielraum_2 > 0){\n        spielraum_2 -= 1;\n    }\n\n}\n\n\n\n//node.warn(\"Neue Spielräume (nach Schutz): \" + spielraum_1 + \", \" + spielraum_2);\n\n// hard limits\nif(flow.get(\"evse_1_optimized\") + spielraum_1 > 32){\n    flow.set(\"evse_1_optimized\", 32); \n} else {\n    flow.set(\"evse_1_optimized\", flow.get(\"evse_1_optimized\") + spielraum_1);\n}\n\nif(flow.get(\"evse_2_optimized\") + spielraum_2 > 32){\n    flow.set(\"evse_2_optimized\", 32); \n} else {\n    flow.set(\"evse_2_optimized\", flow.get(\"evse_2_optimized\") + spielraum_2);\n}\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1990,
+        "y": 1140,
+        "wires": [
+            [
+                "993a5e189fba193e",
+                "4b885bded91b3b1f",
+                "0bcd2bdf98ef9911"
+            ]
+        ]
+    },
+    {
+        "id": "8b9123dd70fa469a",
+        "type": "function",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "Limit EVSE-1 laden",
+        "func": "msg.payload = [flow.get(\"evse_1_optimized\"), 0x00];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2490,
+        "y": 1140,
+        "wires": [
+            [
+                "adf4adf722809f7d"
+            ]
+        ]
+    },
+    {
+        "id": "eb42893e99d92846",
+        "type": "function",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "Limit EVSE-2 laden",
+        "func": "msg.payload = [flow.get(\"evse_2_optimized\"), 0x00];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2490,
+        "y": 1180,
+        "wires": [
+            [
+                "4b61aab37f9b3370"
+            ]
+        ]
+    },
+    {
+        "id": "adf4adf722809f7d",
+        "type": "modbus-write",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "EVSE-1",
+        "showStatusActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "64",
+        "dataType": "MHoldingRegisters",
+        "adr": "1000",
+        "quantity": "2",
+        "server": "58b19c4614a3b3d3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 2700,
+        "y": 1140,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "4b61aab37f9b3370",
+        "type": "modbus-write",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "EVSE-2",
+        "showStatusActivities": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "unitid": "65",
+        "dataType": "MHoldingRegisters",
+        "adr": "1000",
+        "quantity": "2",
+        "server": "58b19c4614a3b3d3",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 2700,
+        "y": 1180,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "d475e5ae1041a30e",
+        "type": "switch",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "EV-present",
+        "property": "payload.vehicle_state",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1430,
+        "y": 1020,
+        "wires": [
+            [
+                "8145c0b7bbc14cda"
+            ]
+        ]
+    },
+    {
+        "id": "d43a3f3bb276c390",
+        "type": "switch",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "Ready",
+        "property": "payload.vehicle_state",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1410,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "17e70efe0b595429",
+        "type": "switch",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "Charging",
+        "property": "payload.vehicle_state",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1420,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6eaedec45aaa7a52",
+        "type": "switch",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "Charging with ventilation",
+        "property": "payload.vehicle_state",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "4",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1470,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "986b5bbcfac7e422",
+        "type": "switch",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "Error",
+        "property": "payload.vehicle_state",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "5",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1410,
+        "y": 1140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d6592191b34ee410",
+        "type": "switch",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "EV-present",
+        "property": "payload.vehicle_state",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1430,
+        "y": 1220,
+        "wires": [
+            [
+                "8145c0b7bbc14cda"
+            ]
+        ]
+    },
+    {
+        "id": "92ab714a31d1320f",
+        "type": "switch",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "Ready",
+        "property": "payload.vehicle_state",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1410,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2a12a67295c81977",
+        "type": "switch",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "Charging",
+        "property": "payload.vehicle_state",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1420,
+        "y": 1260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ed30caa4b08737c1",
+        "type": "switch",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "Charging with ventilation",
+        "property": "payload.vehicle_state",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "4",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1470,
+        "y": 1300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "de047292b28020de",
+        "type": "switch",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "Error",
+        "property": "payload.vehicle_state",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "5",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1410,
+        "y": 1340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "993a5e189fba193e",
+        "type": "switch",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "check_optimierung_nutzen",
+        "property": "optimierung_nutzen",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 2240,
+        "y": 1140,
+        "wires": [
+            [
+                "8b9123dd70fa469a",
+                "eb42893e99d92846",
+                "3e8ebde18f3db016",
+                "1fead5e8346e1782"
+            ]
+        ]
+    },
+    {
+        "id": "6bcc267ec73d5c4d",
+        "type": "change",
+        "z": "8487e97a78c3f8bc",
+        "g": "98bf4896a031d769",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "optimierung_nutzen",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 1360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aa61cd7597f5d363",
+        "type": "inject",
+        "z": "8487e97a78c3f8bc",
+        "g": "98bf4896a031d769",
+        "name": "Start-Optimierung setzen",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 230,
+        "y": 1360,
+        "wires": [
+            [
+                "6bcc267ec73d5c4d"
+            ]
+        ]
+    },
+    {
+        "id": "3e8ebde18f3db016",
+        "type": "function",
+        "z": "8487e97a78c3f8bc",
+        "g": "ea088c4d38ed3585",
+        "name": "slider preset wenn optimierung an",
+        "func": "msg.payload = flow.get(\"evse_1_optimized\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1800,
+        "y": 660,
+        "wires": [
+            [
+                "d7f08524f2e261fd",
+                "119f99e2cda29604"
+            ]
+        ]
+    },
+    {
+        "id": "1fead5e8346e1782",
+        "type": "function",
+        "z": "8487e97a78c3f8bc",
+        "g": "ea088c4d38ed3585",
+        "name": "slider preset wenn optimierung an",
+        "func": "msg.payload = flow.get(\"evse_2_optimized\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1800,
+        "y": 700,
+        "wires": [
+            [
+                "19e7595715e35743",
+                "ca40b444d5637e32"
+            ]
+        ]
+    },
+    {
+        "id": "e34cbb49e37c2f2e",
+        "type": "function",
+        "z": "8487e97a78c3f8bc",
+        "g": "ea088c4d38ed3585",
+        "name": "button preset",
+        "func": "msg.payload = flow.get(\"optimierung_nutzen\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1860,
+        "y": 560,
+        "wires": [
+            [
+                "764c3508bcd73fae"
+            ]
+        ]
+    },
+    {
+        "id": "336d0940a280ff1c",
+        "type": "inject",
+        "z": "8487e97a78c3f8bc",
+        "g": "ea088c4d38ed3585",
+        "name": "Init Button Laden",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.15",
+        "topic": "",
+        "payload": "",
+        "payloadType": "num",
+        "x": 1670,
+        "y": 560,
+        "wires": [
+            [
+                "e34cbb49e37c2f2e"
+            ]
+        ]
+    },
+    {
+        "id": "8145c0b7bbc14cda",
+        "type": "change",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "Ladelimits zur Sicherheit zurücksetzen",
+        "rules": [
+            {
+                "t": "set",
+                "p": "evse_1_optimized",
+                "pt": "flow",
+                "to": "12",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "evse_2_optimized",
+                "pt": "flow",
+                "to": "12",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1830,
+        "y": 1000,
+        "wires": [
+            [
+                "993a5e189fba193e"
+            ]
+        ]
+    },
+    {
+        "id": "e665653d7d87ca0a",
+        "type": "ui_chart",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "",
+        "group": "2c6f95821a97d281",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "label": "Ströme in A",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 2070,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fd5044713314dda7",
+        "type": "smooth",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "15",
+        "round": "",
+        "mult": "single",
+        "reduce": true,
+        "x": 1640,
+        "y": 260,
+        "wires": [
+            [
+                "1f5ba28a963840bf"
+            ]
+        ]
+    },
+    {
+        "id": "fb558ae8f9bb838b",
+        "type": "smooth",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "15",
+        "round": "",
+        "mult": "single",
+        "reduce": true,
+        "x": 1640,
+        "y": 300,
+        "wires": [
+            [
+                "e350bc0f684bad68"
+            ]
+        ]
+    },
+    {
+        "id": "b6f8af7e701c20b3",
+        "type": "smooth",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "15",
+        "round": "",
+        "mult": "single",
+        "reduce": true,
+        "x": 1640,
+        "y": 280,
+        "wires": [
+            [
+                "506e5bbc3fa4f378"
+            ]
+        ]
+    },
+    {
+        "id": "1f5ba28a963840bf",
+        "type": "delay",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "15",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1820,
+        "y": 260,
+        "wires": [
+            [
+                "e665653d7d87ca0a"
+            ]
+        ]
+    },
+    {
+        "id": "e350bc0f684bad68",
+        "type": "delay",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "15",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1820,
+        "y": 300,
+        "wires": [
+            [
+                "e665653d7d87ca0a"
+            ]
+        ]
+    },
+    {
+        "id": "506e5bbc3fa4f378",
+        "type": "delay",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "15",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1820,
+        "y": 280,
+        "wires": [
+            [
+                "e665653d7d87ca0a"
+            ]
+        ]
+    },
+    {
+        "id": "1a4b6cfdde374928",
+        "type": "delay",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "15",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1840,
+        "y": 340,
+        "wires": [
+            [
+                "e665653d7d87ca0a"
+            ]
+        ]
+    },
+    {
+        "id": "d3dcc305f0abc623",
+        "type": "delay",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "15",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1840,
+        "y": 360,
+        "wires": [
+            [
+                "e665653d7d87ca0a"
+            ]
+        ]
+    },
+    {
+        "id": "119f99e2cda29604",
+        "type": "change",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "limit evse 1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1660,
+        "y": 340,
+        "wires": [
+            [
+                "1a4b6cfdde374928"
+            ]
+        ]
+    },
+    {
+        "id": "ca40b444d5637e32",
+        "type": "change",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "limit evse 2",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1660,
+        "y": 360,
+        "wires": [
+            [
+                "d3dcc305f0abc623"
+            ]
+        ]
+    },
+    {
+        "id": "580b5673d7e9ecf3",
+        "type": "ui_chart",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "",
+        "group": "2c6f95821a97d281",
+        "order": 4,
+        "width": "0",
+        "height": "0",
+        "label": "Zustand EVSE",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "step",
+        "nodata": "",
+        "dot": false,
+        "ymin": "1",
+        "ymax": "5",
+        "removeOlder": "24",
+        "removeOlderPoints": "5000",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 2140,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6f795302add62b7f",
+        "type": "change",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.vehicle_state",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "evse 1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1740,
+        "y": 400,
+        "wires": [
+            [
+                "06b5ea83047133be"
+            ]
+        ]
+    },
+    {
+        "id": "9143a73eb5d31bdd",
+        "type": "change",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.vehicle_state",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "evse 2",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1740,
+        "y": 420,
+        "wires": [
+            [
+                "f3aa9ae197163472"
+            ]
+        ]
+    },
+    {
+        "id": "b9128e5063ccd4bf",
+        "type": "ui_text",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "group": "2c6f95821a97d281",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "label": "Hinweis",
+        "format": "Zustände: 1: ready, 2: EV present, 3: charging, 4: charging with ventilation, 5: error",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2100,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "06b5ea83047133be",
+        "type": "delay",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "15",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1940,
+        "y": 400,
+        "wires": [
+            [
+                "580b5673d7e9ecf3"
+            ]
+        ]
+    },
+    {
+        "id": "f3aa9ae197163472",
+        "type": "delay",
+        "z": "8487e97a78c3f8bc",
+        "g": "dc1f42e83f64aef1",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "15",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1940,
+        "y": 420,
+        "wires": [
+            [
+                "580b5673d7e9ecf3"
+            ]
+        ]
+    },
+    {
+        "id": "db81e02198356eca",
+        "type": "influxdb out",
+        "z": "8487e97a78c3f8bc",
+        "g": "a210af185fa5e705",
+        "influxdb": "65a1bd081c440dd1",
+        "name": "Local-InfluxDB",
+        "measurement": "",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "LaMa",
+        "bucket": "lama",
+        "x": 1380,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "4ec5439ce5dcd2dd",
+        "type": "function",
+        "z": "8487e97a78c3f8bc",
+        "g": "a210af185fa5e705",
+        "name": "Aufbereitung für InfluxDB",
+        "func": "msg.measurement = \"lama_daten_janitza\";\nmsg.payload = [{\n    U_L1: msg.payload.V_L1,\n    U_L2: msg.payload.V_L2,\n    U_L3: msg.payload.V_L3,\n    U_L: msg.payload.V_L,\n    I_L1: msg.payload.I_L1,\n    I_L2: msg.payload.I_L2,\n    I_L3: msg.payload.I_L3,\n    I_L: msg.payload.I_L,\n    P_L1: msg.payload.P_L1,\n    P_L2: msg.payload.P_L2,\n    P_L3: msg.payload.P_L3,\n    P_L: msg.payload.P_L\n},\n{\n    location: \"tiefgarage_1\"\n}];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 260,
+        "wires": [
+            [
+                "db81e02198356eca"
+            ]
+        ]
+    },
+    {
+        "id": "dc897ec24c3f176c",
+        "type": "influxdb out",
+        "z": "8487e97a78c3f8bc",
+        "g": "9c729ed259a7762c",
+        "influxdb": "65a1bd081c440dd1",
+        "name": "Local-InfluxDB",
+        "measurement": "",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "LaMa",
+        "bucket": "lama",
+        "x": 900,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "48537626b30782b2",
+        "type": "function",
+        "z": "8487e97a78c3f8bc",
+        "g": "9c729ed259a7762c",
+        "name": "Aufbereitung für InfluxDB",
+        "func": "msg.payload = [{\n    vehicle_state: msg.payload.vehicle_state,\n    actual_configured_amps: msg.payload.actual_configured_amps,\n    actual_amps: msg.payload.actual_amps\n},\n{\n    location:\"tiefgarage_1\",\n    evse_id: 1\n}\n];\n\nmsg.measurement = \"lama_daten_evse\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 660,
+        "wires": [
+            [
+                "dc897ec24c3f176c"
+            ]
+        ]
+    },
+    {
+        "id": "cdedae0f2dbe3198",
+        "type": "function",
+        "z": "8487e97a78c3f8bc",
+        "g": "9c729ed259a7762c",
+        "name": "Aufbereitung für InfluxDB",
+        "func": "msg.payload = [{\n    vehicle_state: msg.payload.vehicle_state,\n    actual_configured_amps: msg.payload.actual_configured_amps,\n    actual_amps: msg.payload.actual_amps\n},\n{\n    location:\"tiefgarage_1\",\n    evse_id: 2\n}\n];\n\nmsg.measurement = \"lama_daten_evse\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 940,
+        "wires": [
+            [
+                "dc897ec24c3f176c"
+            ]
+        ]
+    },
+    {
+        "id": "4b885bded91b3b1f",
+        "type": "function",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "Aufbereitung für InfluxDB EVSE 1",
+        "func": "msg.payload = [{\n    optimized_amps: flow.get(\"evse_1_optimized\")\n},\n{\n    location:\"tiefgarage_1\",\n    evse_id: 1\n}\n];\n\nmsg.measurement = \"lama_daten_optimierung\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2260,
+        "y": 1020,
+        "wires": [
+            [
+                "1846ba2fb4248b5a"
+            ]
+        ]
+    },
+    {
+        "id": "1846ba2fb4248b5a",
+        "type": "influxdb out",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "influxdb": "65a1bd081c440dd1",
+        "name": "Local-InfluxDB",
+        "measurement": "",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "LaMa",
+        "bucket": "lama",
+        "x": 2520,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "dada26388e26138a",
+        "type": "influxdb out",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "influxdb": "65a1bd081c440dd1",
+        "name": "Local-InfluxDB",
+        "measurement": "",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "LaMa",
+        "bucket": "lama",
+        "x": 2520,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "0bcd2bdf98ef9911",
+        "type": "function",
+        "z": "8487e97a78c3f8bc",
+        "g": "6e014715cc6f2323",
+        "name": "Aufbereitung für InfluxDB EVSE 2",
+        "func": "msg.payload = [{\n    optimized_amps: flow.get(\"evse_2_optimized\")\n},\n{\n    location:\"tiefgarage_1\",\n    evse_id: 2\n}\n];\n\nmsg.measurement = \"lama_daten_optimierung\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2260,
+        "y": 1060,
+        "wires": [
+            [
+                "dada26388e26138a"
+            ]
+        ]
+    },
+    {
+        "id": "4c4d20a2ae621360",
+        "type": "modbus-client",
+        "name": "Janitza",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "10.21.6.5",
+        "tcpPort": "502",
+        "tcpType": "TCP-RTU-BUFFERED",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": "1",
+        "commandDelay": "1",
+        "clientTimeout": "1000",
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": "2000",
+        "parallelUnitIdsAllowed": true,
+        "showErrors": true,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "3b82a6424f25e354",
+        "type": "ui_group",
+        "name": "Grafen",
+        "tab": "7ad478966d8323b1",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a4eae6103c1b4c80",
+        "type": "ui_group",
+        "name": "Ströme - Gauges",
+        "tab": "7ad478966d8323b1",
+        "order": 2,
+        "disp": true,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1ffd782eb1286618",
+        "type": "ui_group",
+        "name": "Telemetrie - Janitza & EVSE",
+        "tab": "7ad478966d8323b1",
+        "order": 3,
+        "disp": true,
+        "width": "3",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "58b19c4614a3b3d3",
+        "type": "modbus-client",
+        "name": "Serial-USB",
+        "clienttype": "simpleser",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "127.0.0.1",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB0",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": "1",
+        "commandDelay": "1",
+        "clientTimeout": "1000",
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": "2000",
+        "parallelUnitIdsAllowed": false,
+        "showErrors": true,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "6a296eec4d453dc9",
+        "type": "ui_group",
+        "name": "Manuell Start/Stop",
+        "tab": "e7d71718c659e8cd",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "33854bcf9409d834",
+        "type": "ui_group",
+        "name": "Manuelle Steuerung",
+        "tab": "e7d71718c659e8cd",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2c6f95821a97d281",
+        "type": "ui_group",
+        "name": "Telemetrie",
+        "tab": "e7d71718c659e8cd",
+        "order": 3,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "65a1bd081c440dd1",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "database",
+        "name": "Local-Influxdb",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "2.0",
+        "url": "http://localhost:8086",
+        "timeout": "10",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "7ad478966d8323b1",
+        "type": "ui_tab",
+        "name": "Ladesäule - allgemeine Infos",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e7d71718c659e8cd",
+        "type": "ui_tab",
+        "name": "Home - Steuerung",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": true
+    }
+]

@@ -1,0 +1,239 @@
+                                                                    ELATEC GmbH
+
+****** TWN4DevPack492 *********************************************************
+
+- Fix issue with HID Mobile Access and BLE
+- Fix issue with OSDP and secure update of the firmware
+- Fix issue with M-option in conjunction with specific types of credentials
+- Credential types LEGIC Connect and Cardax are turned off by default
+- Updated documentation for TWN4 Mini EVP
+
+
+****** TWN4DevPack490 *********************************************************
+
+- Support HID Mobile Access for a number of devices (M-option is needed)
+- Support TWN4 Mini EVP
+- Google Smart Tap: Support long-term key version
+- OSDP: Support HID ICLASS
+- OSDP: Support Config and Upgrade Cards
+- OSDP: Support diagnostic output
+- OSDP: Parameters can be selected to being adjustable with the Seco App
+
+
+****** TWN4DevPack485 *********************************************************
+
+- LEGIC Connect: Apple background mode is activated
+
+
+****** TWN4DevPack484 *********************************************************
+
+- OSDP:     Possibility to mask keys
+- OSDP:     Improved performance of the configuration interface for smartphones
+- OSDP:     Modified priority of incoming LED commands
+- OSDP:     Fix missing Ack in rare cases upon restart of the reader
+- OSDP:     Support OSDP_XWR, OSDP_PIVDATA, OSDP_GENAUTH, OSDP_CRAUTH,
+            OSDP_KEEPACTIVE as valid targets for requests
+- OSDP:     Transparent mode available
+- OSDP:     Improved communication, which avoids a hang of the reader under 
+            specific cases
+- Tracer:   Distinguish MIFARE DESFire EV1, EV2 and EV3
+- Tracer:   Show storage size of MIFARE DESFire up to 32 kByte
+- Tracer:   Distinguish between HID iCLASS and HID Seos
+- Tracer:   Support HID iCLASS on MIFARE Classic
+- Tracer:   Improved handling of HID Seos
+- Tracer:   Support various read modes of HID Indala
+- Tracer:   Support CEPAS CAN
+- Tracer:   Fix bug with Upgrade Card and ISO14443B
+- Tracer:   Fast output speed
+- Tracer:   More improvements under the hood!
+
+
+****** TWN4DevPack482 *********************************************************
+
+- ELATEC Access: Support production environment
+
+
+****** TWN4DevPack480a ********************************************************
+
+- OSDP:     Fix incompatibility caused by SmartConfig
+- OSDP:     Event OnCardInvalid is not supported anymore
+- OSDP:     Event OnCardValid has been renamed to OnCardFound
+- Apple:    Fix incompatibility with production environment
+- Apple:    Fix incompatibility with DESFire
+- Transact: Selectable types of credentials
+
+****** TWN4DevPack480 *********************************************************
+
+- General:  TWN4 firmware V4.80 is the common successor of firmware V4.64
+            (standardfirmware) and V4.72 (firmware for Secustos)
+- General:  Support of SM-6300init (option '5')
+- General:  Support Wavelynx Mobile (Meridian and MIFARE 2GO)
+- OSDP:     Optimization around TLV parameters
+- OSDP:     Protocol optimization
+- OSDP:     Increased payload to support chunks of 128 bytes for firmware update
+- OSDP:     Support for configurable IOs
+- DESFire:  Support explicit read of UID
+- Firmware: Configurable memory dump and/or restart behavior in case of
+            an access violation by the app
+- Inditag:  Improved compatibility for specific transponders
+
+
+****** TWN4DevPack472b ********************************************************
+
+- OSDP: Fixed and improved TLV parameter interface
+
+
+****** TWN4DevPack472a ********************************************************
+
+- OSDP: Support GPIO mapping
+- OSDP: Increased payload size
+- OSDP: Various optimizations
+
+
+****** TWN4DevPack472 *********************************************************
+
+- Support Apple ECP 2.0 Access
+- OSDP: Support Android Seco App
+- OSDP: For better testing search for transponders even during startup (even
+        though, data is not forwarded to the host)
+- OSDP: Optimzed communication on the RS-485 bus
+- OSDP: Optimzed internal communication avoids laggy behavior of the device
+- EM4305: Adjustable timing
+
+
+****** TWN4DevPack471 *********************************************************
+
+- Support Secustos
+
+
+****** TWN4DevPack464 *********************************************************
+
+- Support HID SE R10
+
+
+****** TWN4DevPack462 *********************************************************
+
+- BLE support mode BLE_MODE_BEACON
+- COM ports: Fix bug with serial 9 bits vs. parity
+- New parameter for adjusting output power of HF (Core and Mini versions only)
+- Fix bug with LEGIC readers: Search for all relevant transponder technologoies
+- New parameter for adjusting output power of HF
+
+
+****** TWN4DevPack461a ********************************************************
+
+- Support latest version of TWN4 CONFIG Programmer
+
+
+****** TWN4DevPack461 *********************************************************
+
+- Support next gen of BLE module
+- Support HID iCLASS SE R10
+- Support LEAF
+- Fix bug with partially not working interrupts on GPIOs
+
+
+****** TWN4DevPack451a ********************************************************
+
+- Support latest version of TWN4 CONFIG Programmer
+
+
+****** TWN4DevPack451 *********************************************************
+
+- Support new hardware versions of TWN4 with 3rd gen MCU
+- AppBlaster supports scroll bars in case of dialog not fitting properly
+- HID PROX works even under heavy CPU load
+
+
+****** TWN4DevPack450b ********************************************************
+
+- OSDP: Fix bug with LSTATR/LSTATR
+
+
+****** TWN4DevPack450a ********************************************************
+
+- OSDP: Improved update robustness
+
+
+****** TWN4DevPack450 *********************************************************
+
+- Strongly enhanced flexibility regarding OSDP configuration in conjunction
+  with several controller types/brands on the market (key handling, event
+  handling)
+- Firmware update via OSDP (according to OSDP V2.2)
+- LEGIC products support Apple VAS (consider requirements for firmware of LEGIC
+  frontend)
+- LEGIC products support HID ICLASS (consider requirements for firmware of LEGIC
+  frontend)
+
+
+****** TWN4DevPack408 *********************************************************
+
+- TWN4 Mini Reader always supports HF (which is obvious)
+
+
+****** TWN4DevPack407 *********************************************************
+
+- Support integrated SE processor
+
+
+****** TWN4DevPack406 *********************************************************
+
+- TWN4DevPack406 is a maintenance package with improvements and fixes
+- Firmware, BLE: Fix issue with long range switching to short range 
+- Director: Adjustable timeout value 
+- General: Fix support of ISO7816_SetCommSettings by Simple Protocol
+- TWN4 Slim LEGIC supports Mobile Badge BLE NFC with iPhone as well
+- Fixed an issue, where stop mode caused an increased current consumption
+- See document "TWN4 System Overview DocRev30.pdf", section "History of
+  Changes" for more details
+
+
+****** TWN4DevPack405 *********************************************************
+
+- New products: TWN4 Slim LEGIC, TWN4 Palon Square
+- Support Google Smart Tap
+- See document "TWN4 System Overview DocRev29.pdf", section "History of
+  Changes" for more details
+
+
+****** TWN4DevPack402b ********************************************************
+
+- Updated end user license agreement (see file EULA DocRev3.pdf)
+
+
+****** TWN4DevPack402a ********************************************************
+
+- Safetrust: Fix compatibility issue
+
+
+****** TWN4DevPack402 *********************************************************
+
+- Support Safetrust!
+- Support KleverKey!
+- See document "TWN4 System Overview DocRev28.pdf", section "History of
+  Changes" for more details
+
+
+****** TWN4DevPack401b ********************************************************
+
+- Updated end user license agreement (see file EULA DocRev3.pdf)
+
+****** TWN4DevPack401 *********************************************************
+
+- Introduce TWN4 Device Security
+- Introduce MultiBIX images
+- Support mirror image, which allows firmware update via almost any device
+  interface (please contact ELATEC GmbH)
+- Support Apple VAS including custom key (please contact ELATEC GmbH)
+- Support Transact (please contact ELATEC GmbH)
+- Support remote upgrade (please contact ELATEC GmbH)
+- See document "TWN4 System Overview DocRev27.pdf", section "History of
+  Changes" for more details
+
+
+*******************************************************************************
+
+In case of any questions, don't hesitate to contact our support:
+
+  support-rfid@elatec.com

@@ -1,0 +1,2305 @@
+[
+    {
+        "id": "7229b6fba68e3a96",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f4b3de4bf54d1a72",
+        "type": "group",
+        "z": "7229b6fba68e3a96",
+        "name": "Schuko Lasten",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3d98a6178bd9350a",
+            "2a5a985f7b4dbee1",
+            "677b79ef074e7084",
+            "062a4cee6ea0343d",
+            "80354157a449e277",
+            "11c76d1c609d5468",
+            "899cd71c5603a983",
+            "7c33038774268310",
+            "02311c64e525a06b",
+            "423e4ffa5b77273a",
+            "54d1acdbb8781bb3",
+            "9e547fe00187423f"
+        ],
+        "x": 1614,
+        "y": 979,
+        "w": 612,
+        "h": 262
+    },
+    {
+        "id": "ba2f29d6be9cd939",
+        "type": "group",
+        "z": "7229b6fba68e3a96",
+        "name": "Typ2 1 -  Auto A",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "fa34a503540cb08e",
+            "7d3c7836aeac66ab",
+            "96b94eb35d9e0733",
+            "34e1547754bab159",
+            "8897f0b1be0da061",
+            "30af97ffaf28970e",
+            "d59c3988639f9dc0",
+            "a1555fc5340d9cba",
+            "7074268a41e7524b"
+        ],
+        "x": 1614,
+        "y": 259,
+        "w": 512,
+        "h": 202
+    },
+    {
+        "id": "43c3625fb203553f",
+        "type": "group",
+        "z": "7229b6fba68e3a96",
+        "name": "Typ2 2 - Auto B",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "371ef5e487b1b7f8",
+            "08469186223b6b62",
+            "71503ee1996e1731",
+            "954bb1d5d0f3c6f3",
+            "0357cf6003798767",
+            "be79b88c0f3d9474",
+            "7e77188c0fb2f4b2",
+            "9aea244cdf340a0e",
+            "162ebb089e1cb73b"
+        ],
+        "x": 1614,
+        "y": 499,
+        "w": 512,
+        "h": 202
+    },
+    {
+        "id": "97bd678aa9fdb530",
+        "type": "group",
+        "z": "7229b6fba68e3a96",
+        "name": "Gesamtlast",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "e7b2cf6e04db03b5",
+            "427107e27aed22c1",
+            "d1e0cda91e18108d",
+            "33f141cccd132971",
+            "69e928cb8fd2d872",
+            "dead14c17f064d74",
+            "72a4eeece1e53ded",
+            "6d4cdf02865e59f7",
+            "ab0ba9ece92ad20e"
+        ],
+        "x": 1614,
+        "y": 739,
+        "w": 512,
+        "h": 202
+    },
+    {
+        "id": "ba20dd17918c9ebb",
+        "type": "group",
+        "z": "7229b6fba68e3a96",
+        "name": "Algorithmus",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1fc42a8c1018c2a8",
+            "5a7e6397aac344c0",
+            "acc85ae947f15052",
+            "distribute_function",
+            "cf677d134771d047",
+            "3f2efb1a09c4942b",
+            "26b9f09de4e3efef",
+            "d71c901861272943",
+            "c50c1bcbd398507a",
+            "94af0d327a4101af",
+            "872b424daa77f047",
+            "de85905a3f13cdbd",
+            "d6e9f68811f78f9c"
+        ],
+        "x": 754,
+        "y": 619,
+        "w": 732,
+        "h": 342
+    },
+    {
+        "id": "802f443bac46a9d1",
+        "type": "group",
+        "z": "7229b6fba68e3a96",
+        "name": "Auto Simulation (muss durch echte Daten ersetzt werden)",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "fdbcf8eac36504be",
+            "1aac5fa2a5a677d7",
+            "8ca7ad6c39bca3d1",
+            "089f4087aaa03fc9",
+            "7719d6b6288b4101",
+            "1488b3d2625b6df5",
+            "9ddedb87e6270002",
+            "0588968a7d2b55bd",
+            "c3a9019f60d51f9d",
+            "9b06485c543560bc",
+            "ec85892dcf9a82cd",
+            "4a15b6aaccde7a9b",
+            "aafee03522497edf",
+            "3e1e664c32882f1a",
+            "slider1",
+            "slider2",
+            "slider3",
+            "state_button_a_1",
+            "state_button_a_2",
+            "d0cc1f3648c30a8a",
+            "cd471884a234bd3f",
+            "5df3c31d2b18b975",
+            "8ef08666dc9b82f3",
+            "66d7d396d245ed62",
+            "39e5b165084d8901",
+            "4d5ad67fcf475eb6",
+            "249f9ac475e51f12",
+            "50e2b7fbcda59488",
+            "2839675c53ead8f6",
+            "099c68cfdad0e3e1",
+            "92c63d4995cb2cfc",
+            "a874468e66fe373a",
+            "dd69d9ee03993997"
+        ],
+        "x": 214,
+        "y": 299,
+        "w": 452,
+        "h": 1042
+    },
+    {
+        "id": "1fc42a8c1018c2a8",
+        "type": "function",
+        "z": "7229b6fba68e3a96",
+        "g": "ba20dd17918c9ebb",
+        "name": "Optimize",
+        "func": "// Konstanten und Schritte\nconst MAX_CURRENT_PHASE = 32;\nconst release_steps = [0, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32];\n\n// Inputs aus der Nachricht oder dem Kontext\nlet vehicle_states = msg.payload.vehicle_states || context.get(\"vehicle_states\") || [0, 0];\nlet release_limits = msg.payload.release_limits || context.get(\"release_limits\") || [0, 0];\nlet combined_load = msg.payload.combined_load || context.get(\"combined_load\") || [0, 0, 0];\nlet schuko_load = msg.payload.schuko_load || context.get(\"schuko_load\") || [0, 0, 0];\n\n//node.warn(`vehicle_states: ${vehicle_states}`);\n\nlet updated = false; // Flag, um festzustellen, ob eine Optimierung stattgefunden hat\n\n// Maximale kombinierte Last über alle Phasen berechnen\nlet max_combined_load = Math.max(...combined_load);\n\n// Neue Release Limits berechnen\nlet updated_release_limits = release_limits.map((current_limit, vehicleIndex) => {\n    if (vehicle_states[vehicleIndex] === 3 || vehicle_states[vehicleIndex] === 4) {\n        let next_step_up = release_steps.find(step => step > current_limit);\n\n        if (next_step_up && max_combined_load + 1 < MAX_CURRENT_PHASE) {\n            updated = true; // Optimierung erkannt\n            return next_step_up;\n        }\n    }\n    return current_limit;\n});\n\n// Aktualisiere den Kontext nur, wenn Optimierung stattgefunden hat\nif (updated) {\n    context.set(\"release_limits\", updated_release_limits);\n\n    msg.payload = {\n        vehicle_states: vehicle_states,\n        release_limits: updated_release_limits,\n        schuko_load: schuko_load\n    };\n\n    // Nachricht nur bei Optimierung zurückgeben\n    return msg;\n} else {\n    // Keine Optimierung, keine Nachricht zurückgeben\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 660,
+        "wires": [
+            [
+                "acc85ae947f15052",
+                "872b424daa77f047"
+            ]
+        ]
+    },
+    {
+        "id": "5a7e6397aac344c0",
+        "type": "show-value",
+        "z": "7229b6fba68e3a96",
+        "g": "ba20dd17918c9ebb",
+        "name": "",
+        "path": "",
+        "x": 1090,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "acc85ae947f15052",
+        "type": "show-value",
+        "z": "7229b6fba68e3a96",
+        "g": "ba20dd17918c9ebb",
+        "name": "",
+        "path": "",
+        "x": 1090,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fdbcf8eac36504be",
+        "type": "inject",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "0%",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "factorA",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 310,
+        "y": 340,
+        "wires": [
+            [
+                "aafee03522497edf"
+            ]
+        ]
+    },
+    {
+        "id": "1aac5fa2a5a677d7",
+        "type": "function",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "CarSimulation",
+        "func": "// Zugriff auf Inputs aus msg.payload (aktuelle Werte)\nlet release_limits = msg.payload.release_limits || context.get(\"release_limits\") || [0, 0];\nlet vehicle_states = msg.payload.vehicle_states || context.get(\"vehicle_states\") || [0, 0];\nlet schuko_load = msg.payload.schuko_load || context.get(\"schuko_load\") || [0, 0, 0];\nlet factorA = context.get(\"factorA\") || 3;\nlet factorB = context.get(\"factorB\") || 3;\n\n// Aktualisieren des Kontextes mit neuen Daten, falls vorhanden\nif (msg.topic === \"factorA\") context.set(\"factorA\", (factorA = msg.payload));\nif (msg.topic === \"factorB\") context.set(\"factorB\", (factorB = msg.payload));\nif (msg.topic === \"release_limits\") context.set(\"release_limits\", release_limits);\nif (msg.topic === \"vehicle_states\") context.set(\"vehicle_states\", vehicle_states);\n\n// Funktion zur Berechnung der Fahrzeugnutzung\nfunction calculateUsage(factor, limit) {\n    const percentages = [0, 0.25, 0.5, 1, 1.25];\n    return limit * (percentages[factor] || 0);\n}\n\n// Berechnung der Nutzung für Fahrzeug A und B\nlet vehicle_usageA = Array(3).fill(calculateUsage(factorA, release_limits[0]));\nlet vehicle_usageB = Array(3).fill(calculateUsage(factorB, release_limits[1]));\n\n// Speicherung der Nutzung im Kontext\n    context.set('vehicle_usageA', vehicle_usageA);\n    context.set('vehicle_usageB', vehicle_usageB);\n\n\n// Erstellen der Ausgabe-Nachricht\nmsg.payload = {\n    vehicle_usageA,\n    vehicle_usageB,\n    vehicle_states,\n    release_limits,\n    schuko_load,\n    factorA,\n    factorB\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 640,
+        "wires": [
+            [
+                "9ddedb87e6270002",
+                "dd69d9ee03993997"
+            ]
+        ]
+    },
+    {
+        "id": "8ca7ad6c39bca3d1",
+        "type": "inject",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "25%",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "factorA",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 310,
+        "y": 380,
+        "wires": [
+            [
+                "aafee03522497edf"
+            ]
+        ]
+    },
+    {
+        "id": "089f4087aaa03fc9",
+        "type": "inject",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "50%",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "factorA",
+        "payload": "2",
+        "payloadType": "num",
+        "x": 310,
+        "y": 420,
+        "wires": [
+            [
+                "aafee03522497edf"
+            ]
+        ]
+    },
+    {
+        "id": "7719d6b6288b4101",
+        "type": "inject",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "100%",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "factorA",
+        "payload": "3",
+        "payloadType": "num",
+        "x": 310,
+        "y": 460,
+        "wires": [
+            [
+                "aafee03522497edf"
+            ]
+        ]
+    },
+    {
+        "id": "1488b3d2625b6df5",
+        "type": "inject",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "125%",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "factorA",
+        "payload": "4",
+        "payloadType": "num",
+        "x": 310,
+        "y": 500,
+        "wires": [
+            [
+                "aafee03522497edf"
+            ]
+        ]
+    },
+    {
+        "id": "9ddedb87e6270002",
+        "type": "show-value",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "",
+        "path": "",
+        "x": 510,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0588968a7d2b55bd",
+        "type": "inject",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "0%",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "factorB",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 310,
+        "y": 560,
+        "wires": [
+            [
+                "3e1e664c32882f1a"
+            ]
+        ]
+    },
+    {
+        "id": "c3a9019f60d51f9d",
+        "type": "inject",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "25%",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "factorB",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 310,
+        "y": 600,
+        "wires": [
+            [
+                "3e1e664c32882f1a"
+            ]
+        ]
+    },
+    {
+        "id": "9b06485c543560bc",
+        "type": "inject",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "50%",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "factorB",
+        "payload": "2",
+        "payloadType": "num",
+        "x": 310,
+        "y": 640,
+        "wires": [
+            [
+                "3e1e664c32882f1a"
+            ]
+        ]
+    },
+    {
+        "id": "ec85892dcf9a82cd",
+        "type": "inject",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "100%",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "factorB",
+        "payload": "3",
+        "payloadType": "num",
+        "x": 310,
+        "y": 680,
+        "wires": [
+            [
+                "3e1e664c32882f1a"
+            ]
+        ]
+    },
+    {
+        "id": "4a15b6aaccde7a9b",
+        "type": "inject",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "125%",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "factorB",
+        "payload": "4",
+        "payloadType": "num",
+        "x": 310,
+        "y": 720,
+        "wires": [
+            [
+                "3e1e664c32882f1a"
+            ]
+        ]
+    },
+    {
+        "id": "aafee03522497edf",
+        "type": "show-value",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "",
+        "path": "",
+        "x": 510,
+        "y": 480,
+        "wires": [
+            [
+                "1aac5fa2a5a677d7"
+            ]
+        ]
+    },
+    {
+        "id": "3e1e664c32882f1a",
+        "type": "show-value",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "",
+        "path": "",
+        "x": 510,
+        "y": 560,
+        "wires": [
+            [
+                "1aac5fa2a5a677d7"
+            ]
+        ]
+    },
+    {
+        "id": "72d3541eeed5d49a",
+        "type": "function",
+        "z": "7229b6fba68e3a96",
+        "name": "CalculateCombinedLoad",
+        "func": "// Funktion zur Berechnung des Gesamtstroms\nfunction calculateCombinedLoad(vehicle_usageA, vehicle_usageB, schuko_load) {\n    // Sicherstellen, dass alle Eingabewerte korrekt sind\n    if (\n        !Array.isArray(vehicle_usageA) || vehicle_usageA.length !== 3 ||\n        !Array.isArray(vehicle_usageB) || vehicle_usageB.length !== 3 ||\n        !Array.isArray(schuko_load) || schuko_load.length !== 3\n    ) {\n        node.error(\"Ungültige Eingabewerte. Alle Eingabewerte müssen Arrays mit 3 Phasenströmen sein.\");\n        return null;\n    }\n\n    // Berechnung des Gesamtstroms (combined_load) durch Addition der Werte der gleichen Phasen\n    let combined_load = [\n        vehicle_usageA[0] + vehicle_usageB[0] + schuko_load[0],\n        vehicle_usageA[1] + vehicle_usageB[1] + schuko_load[1],\n        vehicle_usageA[2] + vehicle_usageB[2] + schuko_load[2]\n    ];\n\n    // Debugging: Ausgabe des berechneten Gesamtstroms\n    //node.warn(`Berechneter Gesamtstrom (combined_load): ${JSON.stringify(combined_load)}`);\n\n    return combined_load;\n}\n\n// Eingabedaten aus msg.payload extrahieren\nlet schuko_load = msg.payload.schuko_load || context.get(\"schuko_load\") || [0, 0, 0];\nlet release_limits = msg.payload.release_limits || context.get(\"release_limits\") || [0, 0];\nlet vehicle_states = msg.payload.vehicle_states || context.get(\"vehicle_states\") || [0, 0];\nlet vehicle_usageA = msg.payload.vehicle_usageA || context.get(\"vehicle_usageA\") || [0, 0, 0];\nlet vehicle_usageB = msg.payload.vehicle_usageB || context.get(\"vehicle_usageB\") || [0, 0, 0];\n\n// Aktualisieren des Kontextes mit neuen Daten, falls vorhanden\nif (msg.topic === \"schuko_load\") {\n    context.set(\"schuko_load\", schuko_load);\n}\n\nif (msg.topic === \"vehicle_usageA\") {\n    context.set(\"vehicle_usageA\", vehicle_usageA);\n    node.warn(`Eingang Fahrzeug A: ${JSON.stringify(vehicle_usageA)}`);\n}\n\nif (msg.topic === \"vehicle_usageB\") {\n    context.set(\"vehicle_usageB\", vehicle_usageB);\n    node.warn(`Eingang Fahrzeug B: ${JSON.stringify(vehicle_usageB)}`);\n}\n\n// Überprüfen, ob alle nötigen Daten vorhanden sind und beide Fahrzeuge gleichzeitig eintreffen\nif (vehicle_usageA && vehicle_usageB && schuko_load) {\n    // Gesamtstrom berechnen\n    let combined_load = calculateCombinedLoad(vehicle_usageA, vehicle_usageB, schuko_load);\n\n    // Ausgabe der berechneten Werte\n    msg.payload = {\n        schuko_load: schuko_load,\n        vehicle_states: vehicle_states,\n        release_limits: release_limits,\n        vehicle_usage1: vehicle_usageA,\n        vehicle_usage2: vehicle_usageB,\n        combined_load: combined_load\n    };\n    return msg;\n} else {\n    node.warn(\"Warte auf Eingabedaten...\");\n    return null; // Keine Berechnung durchführen, wenn Daten fehlen\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1130,
+        "y": 420,
+        "wires": [
+            [
+                "427107e27aed22c1",
+                "69e928cb8fd2d872",
+                "6d4cdf02865e59f7",
+                "34e1547754bab159",
+                "30af97ffaf28970e",
+                "d59c3988639f9dc0",
+                "954bb1d5d0f3c6f3",
+                "be79b88c0f3d9474",
+                "9aea244cdf340a0e",
+                "0ce33a6c53b4cdc9",
+                "cf677d134771d047",
+                "d71c901861272943"
+            ]
+        ]
+    },
+    {
+        "id": "3d98a6178bd9350a",
+        "type": "show-value",
+        "z": "7229b6fba68e3a96",
+        "g": "f4b3de4bf54d1a72",
+        "name": "",
+        "path": "",
+        "x": 1870,
+        "y": 1080,
+        "wires": [
+            [
+                "677b79ef074e7084"
+            ]
+        ]
+    },
+    {
+        "id": "2a5a985f7b4dbee1",
+        "type": "show-value",
+        "z": "7229b6fba68e3a96",
+        "g": "f4b3de4bf54d1a72",
+        "name": "",
+        "path": "",
+        "x": 1870,
+        "y": 1200,
+        "wires": [
+            [
+                "062a4cee6ea0343d"
+            ]
+        ]
+    },
+    {
+        "id": "fa34a503540cb08e",
+        "type": "ui_gauge",
+        "z": "7229b6fba68e3a96",
+        "g": "ba2f29d6be9cd939",
+        "name": "",
+        "group": "8b54ad743dfe26c3",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "A1",
+        "label": "Strom in A",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "32",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 2050,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "7d3c7836aeac66ab",
+        "type": "ui_gauge",
+        "z": "7229b6fba68e3a96",
+        "g": "ba2f29d6be9cd939",
+        "name": "",
+        "group": "8b54ad743dfe26c3",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "A2",
+        "label": "Strom in A",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "32",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 2050,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "96b94eb35d9e0733",
+        "type": "ui_gauge",
+        "z": "7229b6fba68e3a96",
+        "g": "ba2f29d6be9cd939",
+        "name": "",
+        "group": "8b54ad743dfe26c3",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "A3",
+        "label": "Strom in A",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "32",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 2050,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "371ef5e487b1b7f8",
+        "type": "ui_gauge",
+        "z": "7229b6fba68e3a96",
+        "g": "43c3625fb203553f",
+        "name": "",
+        "group": "21a4fe8765dc26e7",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "B1",
+        "label": "Strom in A",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "32",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 2050,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "08469186223b6b62",
+        "type": "ui_gauge",
+        "z": "7229b6fba68e3a96",
+        "g": "43c3625fb203553f",
+        "name": "",
+        "group": "21a4fe8765dc26e7",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "B2",
+        "label": "Strom in A",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "32",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 2050,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "71503ee1996e1731",
+        "type": "ui_gauge",
+        "z": "7229b6fba68e3a96",
+        "g": "43c3625fb203553f",
+        "name": "",
+        "group": "21a4fe8765dc26e7",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "B3",
+        "label": "Strom in A",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "32",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 2050,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "34e1547754bab159",
+        "type": "function",
+        "z": "7229b6fba68e3a96",
+        "g": "ba2f29d6be9cd939",
+        "name": "function",
+        "func": "// Zugriff auf Inputs aus msg.payload (aktuelle Werte)\nlet vehicle_usage1 = msg.payload.vehicle_usage1 || [0, 0, 0];\n\n// Erstellen der Ausgabe-Nachricht\nmsg.payload = vehicle_usage1[0];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1700,
+        "y": 300,
+        "wires": [
+            [
+                "8897f0b1be0da061"
+            ]
+        ]
+    },
+    {
+        "id": "8897f0b1be0da061",
+        "type": "show-value",
+        "z": "7229b6fba68e3a96",
+        "g": "ba2f29d6be9cd939",
+        "name": "",
+        "path": "",
+        "x": 1870,
+        "y": 300,
+        "wires": [
+            [
+                "fa34a503540cb08e"
+            ]
+        ]
+    },
+    {
+        "id": "30af97ffaf28970e",
+        "type": "function",
+        "z": "7229b6fba68e3a96",
+        "g": "ba2f29d6be9cd939",
+        "name": "function",
+        "func": "// Zugriff auf Inputs aus msg.payload (aktuelle Werte)\nlet vehicle_usage1 = msg.payload.vehicle_usage1 || [0, 0, 0];\n\n// Erstellen der Ausgabe-Nachricht\nmsg.payload = vehicle_usage1[1];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1700,
+        "y": 360,
+        "wires": [
+            [
+                "a1555fc5340d9cba"
+            ]
+        ]
+    },
+    {
+        "id": "d59c3988639f9dc0",
+        "type": "function",
+        "z": "7229b6fba68e3a96",
+        "g": "ba2f29d6be9cd939",
+        "name": "function",
+        "func": "// Zugriff auf Inputs aus msg.payload (aktuelle Werte)\nlet vehicle_usage1 = msg.payload.vehicle_usage1 || [0, 0, 0];\n\n// Erstellen der Ausgabe-Nachricht\nmsg.payload = vehicle_usage1[2];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1700,
+        "y": 420,
+        "wires": [
+            [
+                "7074268a41e7524b"
+            ]
+        ]
+    },
+    {
+        "id": "a1555fc5340d9cba",
+        "type": "show-value",
+        "z": "7229b6fba68e3a96",
+        "g": "ba2f29d6be9cd939",
+        "name": "",
+        "path": "",
+        "x": 1870,
+        "y": 360,
+        "wires": [
+            [
+                "7d3c7836aeac66ab"
+            ]
+        ]
+    },
+    {
+        "id": "7074268a41e7524b",
+        "type": "show-value",
+        "z": "7229b6fba68e3a96",
+        "g": "ba2f29d6be9cd939",
+        "name": "",
+        "path": "",
+        "x": 1870,
+        "y": 420,
+        "wires": [
+            [
+                "96b94eb35d9e0733"
+            ]
+        ]
+    },
+    {
+        "id": "954bb1d5d0f3c6f3",
+        "type": "function",
+        "z": "7229b6fba68e3a96",
+        "g": "43c3625fb203553f",
+        "name": "function",
+        "func": "// Zugriff auf Inputs aus msg.payload (aktuelle Werte)\nlet vehicle_usage2 = msg.payload.vehicle_usage2 || [0, 0, 0];\n\n// Erstellen der Ausgabe-Nachricht\nmsg.payload = vehicle_usage2[0];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1700,
+        "y": 540,
+        "wires": [
+            [
+                "0357cf6003798767"
+            ]
+        ]
+    },
+    {
+        "id": "0357cf6003798767",
+        "type": "show-value",
+        "z": "7229b6fba68e3a96",
+        "g": "43c3625fb203553f",
+        "name": "",
+        "path": "",
+        "x": 1870,
+        "y": 540,
+        "wires": [
+            [
+                "371ef5e487b1b7f8"
+            ]
+        ]
+    },
+    {
+        "id": "be79b88c0f3d9474",
+        "type": "function",
+        "z": "7229b6fba68e3a96",
+        "g": "43c3625fb203553f",
+        "name": "function",
+        "func": "// Zugriff auf Inputs aus msg.payload (aktuelle Werte)\nlet vehicle_usage2 = msg.payload.vehicle_usage2 || [0, 0, 0];\n\n// Erstellen der Ausgabe-Nachricht\nmsg.payload = vehicle_usage2[1];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1700,
+        "y": 600,
+        "wires": [
+            [
+                "7e77188c0fb2f4b2"
+            ]
+        ]
+    },
+    {
+        "id": "7e77188c0fb2f4b2",
+        "type": "show-value",
+        "z": "7229b6fba68e3a96",
+        "g": "43c3625fb203553f",
+        "name": "",
+        "path": "",
+        "x": 1870,
+        "y": 600,
+        "wires": [
+            [
+                "08469186223b6b62"
+            ]
+        ]
+    },
+    {
+        "id": "9aea244cdf340a0e",
+        "type": "function",
+        "z": "7229b6fba68e3a96",
+        "g": "43c3625fb203553f",
+        "name": "function",
+        "func": "// Zugriff auf Inputs aus msg.payload (aktuelle Werte)\nlet vehicle_usage2 = msg.payload.vehicle_usage2 || [0, 0, 0];\n\n// Erstellen der Ausgabe-Nachricht\nmsg.payload = vehicle_usage2[2];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1700,
+        "y": 660,
+        "wires": [
+            [
+                "162ebb089e1cb73b"
+            ]
+        ]
+    },
+    {
+        "id": "162ebb089e1cb73b",
+        "type": "show-value",
+        "z": "7229b6fba68e3a96",
+        "g": "43c3625fb203553f",
+        "name": "",
+        "path": "",
+        "x": 1870,
+        "y": 660,
+        "wires": [
+            [
+                "71503ee1996e1731"
+            ]
+        ]
+    },
+    {
+        "id": "slider1",
+        "type": "ui_slider",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "Schuko1",
+        "label": "Phase 1",
+        "tooltip": "",
+        "group": "fd26729f1babb14a",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "outs": "all",
+        "topic": "C1",
+        "topicType": "str",
+        "min": 0,
+        "max": 16,
+        "step": "0.01",
+        "className": "",
+        "x": 300,
+        "y": 780,
+        "wires": [
+            [
+                "50e2b7fbcda59488"
+            ]
+        ]
+    },
+    {
+        "id": "slider2",
+        "type": "ui_slider",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "Schuko2",
+        "label": "Phase 2",
+        "tooltip": "",
+        "group": "fd26729f1babb14a",
+        "order": 14,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "V2",
+        "topicType": "str",
+        "min": 0,
+        "max": 16,
+        "step": "0.01",
+        "className": "",
+        "x": 300,
+        "y": 820,
+        "wires": [
+            [
+                "2839675c53ead8f6"
+            ]
+        ]
+    },
+    {
+        "id": "slider3",
+        "type": "ui_slider",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "Schuko3",
+        "label": "Phase 3",
+        "tooltip": "",
+        "group": "fd26729f1babb14a",
+        "order": 15,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "D3",
+        "topicType": "str",
+        "min": 0,
+        "max": 16,
+        "step": "0.01",
+        "className": "",
+        "x": 300,
+        "y": 860,
+        "wires": [
+            [
+                "099c68cfdad0e3e1"
+            ]
+        ]
+    },
+    {
+        "id": "state_button_a_1",
+        "type": "ui_button",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "Auto A - State 1",
+        "group": "fd26729f1babb14a",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Auto A - Kein Auto",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "SA",
+        "topicType": "str",
+        "x": 320,
+        "y": 920,
+        "wires": [
+            [
+                "92c63d4995cb2cfc"
+            ]
+        ]
+    },
+    {
+        "id": "state_button_a_2",
+        "type": "ui_button",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "Auto A - State 2",
+        "group": "fd26729f1babb14a",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Auto A - Auto präsent",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "2",
+        "payloadType": "num",
+        "topic": "SA",
+        "topicType": "str",
+        "x": 320,
+        "y": 960,
+        "wires": [
+            [
+                "92c63d4995cb2cfc"
+            ]
+        ]
+    },
+    {
+        "id": "distribute_function",
+        "type": "function",
+        "z": "7229b6fba68e3a96",
+        "g": "ba20dd17918c9ebb",
+        "name": "Distribute",
+        "func": "// Maximale Phasenlast und zulässige Schritte\nconst MAX_CURRENT_PHASE = 32;\nconst release_steps = [0, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32];\n\n// Initialisierung von Fahrzeugzuständen und Schuko-Last im Kontext\ncontext.vehicle_states = context.vehicle_states || [0, 0];\ncontext.schuko_load = context.schuko_load || [0, 0, 0];\n\n// Verarbeitung der Schuko-Lasten\nif (msg.topic === \"C1\") {\n    context.schuko_load[0] = msg.payload; // Schuko-Last Phase 1 Auto C\n} else if (msg.topic === \"V2\") {\n    context.schuko_load[1] = msg.payload; // Schuko-Last Phase 2 Versorgung\n} else if (msg.topic === \"D3\") {\n    context.schuko_load[2] = msg.payload; // Schuko-Last Phase 3 Auto D\n}\n\n// Verarbeitung der Fahrzeugzustände\nif (msg.topic === \"SA\") { // Status Auto A\n    context.vehicle_states[0] =  msg.payload;\n} else if (msg.topic === \"SB\") { // Status Auto B\n    context.vehicle_states[1] = msg.payload;\n}\n\n// Funktion zur Verteilung und Anpassung der Ströme\nfunction distributeAndAdjust(vehicle_states, schuko_load) {\n    let max_schuko_load = Math.max(...schuko_load); // Berechnung der größten Schuko-Last\n    let available_current = MAX_CURRENT_PHASE - max_schuko_load; // Berechnung des verfügbaren Stroms\n    let release_limits = [0, 0];\n    const charging_states = [2, 3, 4]; // Fahrzeugzustände für Laden (2, 3 oder 4)\n    const non_charging_states = [1, 5];\n    \n\n    // Verteilung der Ströme basierend auf Fahrzeugzuständen\n    if (charging_states.includes(vehicle_states[0]) && non_charging_states.includes(vehicle_states[1])) {\n        // Auto A lädt, Auto B ist bereit\n        release_limits[0] = available_current;\n    } else if (charging_states.includes(vehicle_states[1]) && non_charging_states.includes(vehicle_states[0])) {\n        // Auto B lädt, Auto A ist bereit\n        release_limits[1] = available_current;\n    } else if (charging_states.includes(vehicle_states[0]) && charging_states.includes(vehicle_states[1])) {\n        // Beide Autos laden\n        release_limits[0] = available_current / 2;\n        release_limits[1] = available_current / 2;\n    }\n\n    // Anpassung der Release Limits auf die gültigen Schritte\n    release_limits = release_limits.map(value => {\n        if (value < release_steps[0]) {\n            return release_steps[0]; // Kleinster Step\n        }\n        for (let i = 1; i < release_steps.length; i++) {\n            if (value < release_steps[i]) {\n                return release_steps[i - 1]; // Vorheriger gültiger Step\n            }\n        }\n        return release_steps[release_steps.length - 1];\n    });\n\n    return release_limits;\n}\n\n// Verteilung und Anpassung der Limits durchführen\nlet release_limits = distributeAndAdjust(context.vehicle_states, context.schuko_load);\n\n// Nachricht mit aktualisierten Werten erstellen\nmsg.payload = {\n    schuko_load: context.schuko_load, // Werte aus allen drei Slidern\n    vehicle_states: context.vehicle_states,\n    release_limits: release_limits // Final berechnete Werte\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 880,
+        "wires": [
+            [
+                "c50c1bcbd398507a",
+                "5a7e6397aac344c0"
+            ]
+        ]
+    },
+    {
+        "id": "d0cc1f3648c30a8a",
+        "type": "ui_button",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "Auto A - State 3",
+        "group": "fd26729f1babb14a",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Auto A - Auto lädt",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "3",
+        "payloadType": "num",
+        "topic": "SA",
+        "topicType": "str",
+        "x": 320,
+        "y": 1000,
+        "wires": [
+            [
+                "92c63d4995cb2cfc"
+            ]
+        ]
+    },
+    {
+        "id": "cd471884a234bd3f",
+        "type": "ui_button",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "Auto B - State 2",
+        "group": "fd26729f1babb14a",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Auto B - Auto präsent",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "2",
+        "payloadType": "num",
+        "topic": "SB",
+        "topicType": "str",
+        "x": 320,
+        "y": 1180,
+        "wires": [
+            [
+                "a874468e66fe373a"
+            ]
+        ]
+    },
+    {
+        "id": "5df3c31d2b18b975",
+        "type": "ui_button",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "Auto B - State 1",
+        "group": "fd26729f1babb14a",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Auto B - Kein Auto",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "SB",
+        "topicType": "str",
+        "x": 320,
+        "y": 1140,
+        "wires": [
+            [
+                "a874468e66fe373a"
+            ]
+        ]
+    },
+    {
+        "id": "8ef08666dc9b82f3",
+        "type": "ui_button",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "Auto A - State 4",
+        "group": "fd26729f1babb14a",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Auto A - Auto lädt mit Ventilation",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "4",
+        "payloadType": "num",
+        "topic": "SA",
+        "topicType": "str",
+        "x": 320,
+        "y": 1040,
+        "wires": [
+            [
+                "92c63d4995cb2cfc"
+            ]
+        ]
+    },
+    {
+        "id": "66d7d396d245ed62",
+        "type": "ui_button",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "Auto A - State 5",
+        "group": "fd26729f1babb14a",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Auto A - Fehler",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "5",
+        "payloadType": "num",
+        "topic": "SA",
+        "topicType": "str",
+        "x": 320,
+        "y": 1080,
+        "wires": [
+            [
+                "92c63d4995cb2cfc"
+            ]
+        ]
+    },
+    {
+        "id": "39e5b165084d8901",
+        "type": "ui_button",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "Auto B - State 3",
+        "group": "fd26729f1babb14a",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Auto B - Auto lädt",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "3",
+        "payloadType": "num",
+        "topic": "SB",
+        "topicType": "str",
+        "x": 320,
+        "y": 1220,
+        "wires": [
+            [
+                "a874468e66fe373a"
+            ]
+        ]
+    },
+    {
+        "id": "4d5ad67fcf475eb6",
+        "type": "ui_button",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "Auto B - State 4",
+        "group": "fd26729f1babb14a",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Auto B - Auto lädt mit Ventilation",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "4",
+        "payloadType": "num",
+        "topic": "SB",
+        "topicType": "str",
+        "x": 320,
+        "y": 1260,
+        "wires": [
+            [
+                "a874468e66fe373a"
+            ]
+        ]
+    },
+    {
+        "id": "249f9ac475e51f12",
+        "type": "ui_button",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "Auto B - State 5",
+        "group": "fd26729f1babb14a",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Auto B - Fehler",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "5",
+        "payloadType": "num",
+        "topic": "SB",
+        "topicType": "str",
+        "x": 320,
+        "y": 1300,
+        "wires": [
+            [
+                "a874468e66fe373a"
+            ]
+        ]
+    },
+    {
+        "id": "677b79ef074e7084",
+        "type": "ui_gauge",
+        "z": "7229b6fba68e3a96",
+        "g": "f4b3de4bf54d1a72",
+        "name": "",
+        "group": "6a064d2bbcdf1e8b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Schuko1 - Auto C",
+        "label": "Strom in A",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "32",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 2090,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "062a4cee6ea0343d",
+        "type": "ui_gauge",
+        "z": "7229b6fba68e3a96",
+        "g": "f4b3de4bf54d1a72",
+        "name": "",
+        "group": "6a064d2bbcdf1e8b",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Schuko3 - Auto D",
+        "label": "Strom in A",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "32",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 2090,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "80354157a449e277",
+        "type": "function",
+        "z": "7229b6fba68e3a96",
+        "g": "f4b3de4bf54d1a72",
+        "name": "function",
+        "func": "// Zugriff auf Inputs aus msg.payload (aktuelle Werte)\nlet schuko_load = msg.payload.schuko_load || [0, 0]; // Nur 2 Werte für Fahrzeug A und B\n\n// Erstellen der Ausgabe-Nachricht\nmsg.payload = schuko_load[0];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1700,
+        "y": 1080,
+        "wires": [
+            [
+                "3d98a6178bd9350a"
+            ]
+        ]
+    },
+    {
+        "id": "11c76d1c609d5468",
+        "type": "function",
+        "z": "7229b6fba68e3a96",
+        "g": "f4b3de4bf54d1a72",
+        "name": "function",
+        "func": "// Zugriff auf Inputs aus msg.payload (aktuelle Werte)\nlet schuko_load = msg.payload.schuko_load || [0, 0]; // Nur 2 Werte für Fahrzeug A und B\n\n// Erstellen der Ausgabe-Nachricht\nmsg.payload = schuko_load[2];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1700,
+        "y": 1200,
+        "wires": [
+            [
+                "2a5a985f7b4dbee1"
+            ]
+        ]
+    },
+    {
+        "id": "e7b2cf6e04db03b5",
+        "type": "ui_gauge",
+        "z": "7229b6fba68e3a96",
+        "g": "97bd678aa9fdb530",
+        "name": "",
+        "group": "8feb42048a638528",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "G1",
+        "label": "Strom in A",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "32",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 2050,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "427107e27aed22c1",
+        "type": "function",
+        "z": "7229b6fba68e3a96",
+        "g": "97bd678aa9fdb530",
+        "name": "function",
+        "func": "// Zugriff auf Inputs aus msg.payload (aktuelle Werte)\nlet combined_load = msg.payload.combined_load || [0, 0, 0];\n\n// Erstellen der Ausgabe-Nachricht\nmsg.payload = combined_load[0];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1700,
+        "y": 780,
+        "wires": [
+            [
+                "d1e0cda91e18108d"
+            ]
+        ]
+    },
+    {
+        "id": "d1e0cda91e18108d",
+        "type": "show-value",
+        "z": "7229b6fba68e3a96",
+        "g": "97bd678aa9fdb530",
+        "name": "",
+        "path": "",
+        "x": 1870,
+        "y": 780,
+        "wires": [
+            [
+                "e7b2cf6e04db03b5"
+            ]
+        ]
+    },
+    {
+        "id": "33f141cccd132971",
+        "type": "ui_gauge",
+        "z": "7229b6fba68e3a96",
+        "g": "97bd678aa9fdb530",
+        "name": "",
+        "group": "8feb42048a638528",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "G2",
+        "label": "Strom in A",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "32",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 2050,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "69e928cb8fd2d872",
+        "type": "function",
+        "z": "7229b6fba68e3a96",
+        "g": "97bd678aa9fdb530",
+        "name": "function",
+        "func": "// Zugriff auf Inputs aus msg.payload (aktuelle Werte)\nlet combined_load = msg.payload.combined_load || [0, 0, 0];\n\n// Erstellen der Ausgabe-Nachricht\nmsg.payload = combined_load[1];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1700,
+        "y": 840,
+        "wires": [
+            [
+                "dead14c17f064d74"
+            ]
+        ]
+    },
+    {
+        "id": "dead14c17f064d74",
+        "type": "show-value",
+        "z": "7229b6fba68e3a96",
+        "g": "97bd678aa9fdb530",
+        "name": "",
+        "path": "",
+        "x": 1870,
+        "y": 840,
+        "wires": [
+            [
+                "33f141cccd132971"
+            ]
+        ]
+    },
+    {
+        "id": "72a4eeece1e53ded",
+        "type": "ui_gauge",
+        "z": "7229b6fba68e3a96",
+        "g": "97bd678aa9fdb530",
+        "name": "",
+        "group": "8feb42048a638528",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "G3",
+        "label": "Strom in A",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "32",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 2050,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "6d4cdf02865e59f7",
+        "type": "function",
+        "z": "7229b6fba68e3a96",
+        "g": "97bd678aa9fdb530",
+        "name": "function",
+        "func": "// Zugriff auf Inputs aus msg.payload (aktuelle Werte)\nlet combined_load = msg.payload.combined_load || [0, 0, 0];\n\n// Erstellen der Ausgabe-Nachricht\nmsg.payload = combined_load[2];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1700,
+        "y": 900,
+        "wires": [
+            [
+                "ab0ba9ece92ad20e"
+            ]
+        ]
+    },
+    {
+        "id": "ab0ba9ece92ad20e",
+        "type": "show-value",
+        "z": "7229b6fba68e3a96",
+        "g": "97bd678aa9fdb530",
+        "name": "",
+        "path": "",
+        "x": 1870,
+        "y": 900,
+        "wires": [
+            [
+                "72a4eeece1e53ded"
+            ]
+        ]
+    },
+    {
+        "id": "899cd71c5603a983",
+        "type": "ui_gauge",
+        "z": "7229b6fba68e3a96",
+        "g": "f4b3de4bf54d1a72",
+        "name": "",
+        "group": "6a064d2bbcdf1e8b",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Schuko2 - Versorgung",
+        "label": "Strom in A",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "32",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 2100,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "7c33038774268310",
+        "type": "show-value",
+        "z": "7229b6fba68e3a96",
+        "g": "f4b3de4bf54d1a72",
+        "name": "",
+        "path": "",
+        "x": 1870,
+        "y": 1140,
+        "wires": [
+            [
+                "899cd71c5603a983"
+            ]
+        ]
+    },
+    {
+        "id": "02311c64e525a06b",
+        "type": "function",
+        "z": "7229b6fba68e3a96",
+        "g": "f4b3de4bf54d1a72",
+        "name": "function",
+        "func": "// Zugriff auf Inputs aus msg.payload (aktuelle Werte)\nlet schuko_load = msg.payload.schuko_load || [0, 0]; // Nur 2 Werte für Fahrzeug A und B\n\n// Erstellen der Ausgabe-Nachricht\nmsg.payload = schuko_load[1];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1700,
+        "y": 1140,
+        "wires": [
+            [
+                "7c33038774268310"
+            ]
+        ]
+    },
+    {
+        "id": "50e2b7fbcda59488",
+        "type": "trigger",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "",
+        "op1": "",
+        "op2": "0",
+        "op1type": "pay",
+        "op2type": "str",
+        "duration": "-1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 540,
+        "y": 780,
+        "wires": [
+            [
+                "distribute_function"
+            ]
+        ]
+    },
+    {
+        "id": "2839675c53ead8f6",
+        "type": "trigger",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "",
+        "op1": "",
+        "op2": "0",
+        "op1type": "pay",
+        "op2type": "str",
+        "duration": "-1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 540,
+        "y": 820,
+        "wires": [
+            [
+                "distribute_function"
+            ]
+        ]
+    },
+    {
+        "id": "099c68cfdad0e3e1",
+        "type": "trigger",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "",
+        "op1": "",
+        "op2": "0",
+        "op1type": "pay",
+        "op2type": "str",
+        "duration": "-1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 540,
+        "y": 860,
+        "wires": [
+            [
+                "distribute_function"
+            ]
+        ]
+    },
+    {
+        "id": "92c63d4995cb2cfc",
+        "type": "trigger",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "",
+        "op1": "",
+        "op2": "0",
+        "op1type": "pay",
+        "op2type": "str",
+        "duration": "-1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 540,
+        "y": 920,
+        "wires": [
+            [
+                "distribute_function",
+                "cf677d134771d047",
+                "d71c901861272943"
+            ]
+        ]
+    },
+    {
+        "id": "a874468e66fe373a",
+        "type": "trigger",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "",
+        "op1": "",
+        "op2": "0",
+        "op1type": "pay",
+        "op2type": "str",
+        "duration": "-1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 540,
+        "y": 1140,
+        "wires": [
+            [
+                "distribute_function",
+                "cf677d134771d047",
+                "d71c901861272943"
+            ]
+        ]
+    },
+    {
+        "id": "cf677d134771d047",
+        "type": "delay",
+        "z": "7229b6fba68e3a96",
+        "g": "ba20dd17918c9ebb",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "5",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 880,
+        "y": 660,
+        "wires": [
+            [
+                "1fc42a8c1018c2a8"
+            ]
+        ]
+    },
+    {
+        "id": "0ce33a6c53b4cdc9",
+        "type": "show-value",
+        "z": "7229b6fba68e3a96",
+        "name": "",
+        "path": "",
+        "x": 1090,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dd69d9ee03993997",
+        "type": "trigger",
+        "z": "7229b6fba68e3a96",
+        "g": "802f443bac46a9d1",
+        "name": "",
+        "op1": "",
+        "op2": "0",
+        "op1type": "pay",
+        "op2type": "str",
+        "duration": "-1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 540,
+        "y": 680,
+        "wires": [
+            [
+                "72d3541eeed5d49a"
+            ]
+        ]
+    },
+    {
+        "id": "3f2efb1a09c4942b",
+        "type": "function",
+        "z": "7229b6fba68e3a96",
+        "g": "ba20dd17918c9ebb",
+        "name": "Safety",
+        "func": "// Konstanten\nconst MAX_CURRENT_PHASE = 32;\nconst release_steps = [0, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32];\n\n// Inputs aus der Nachricht oder dem Kontext\nlet vehicle_states = msg.payload.vehicle_states || context.get(\"vehicle_states\") || [0, 0];\nlet release_limits = msg.payload.release_limits || context.get(\"release_limits\") || [0, 0];\nlet combined_load = msg.payload.combined_load || context.get(\"combined_load\") || [0, 0, 0];\nlet schuko_load = msg.payload.schuko_load || context.get(\"schuko_load\") || [0, 0, 0];\n\n// Maximale kombinierte Last berechnen\nlet max_combined_load = Math.max(...combined_load);\n\n// Differenz zur maximal erlaubten Phasenlast berechnen\nlet overload = max_combined_load - MAX_CURRENT_PHASE;\n\n// Wenn keine Überlast vorliegt, beende die Funktion\nif (overload <= 0) {\n    return null;\n}\n\n// Überlast auf aktive Fahrzeuge verteilen\nlet active_vehicles = vehicle_states.map((state, index) => state === 3 || state === 4 ? index : null).filter(v => v !== null);\n\n// Fall 1: Nur ein Fahrzeug aktiv\nif (active_vehicles.length === 1) {\n    let index = active_vehicles[0];\n    let new_limit = release_limits[index] - overload;\n\n    // Abrunden auf den nächstkleineren Release Step\n    release_limits[index] = release_steps.slice().reverse().find(step => step <= new_limit) || 0;\n}\n\n// Fall 2: Zwei Fahrzeuge aktiv\nelse if (active_vehicles.length === 2) {\n    let [indexA, indexB] = active_vehicles;\n    let reduction_per_vehicle = overload / 2;\n\n    let new_limit_A = release_limits[indexA] - reduction_per_vehicle;\n    let new_limit_B = release_limits[indexB] - reduction_per_vehicle;\n\n    // Abrunden auf den nächstkleineren Release Step\n    release_limits[indexA] = release_steps.slice().reverse().find(step => step <= new_limit_A) || 0;\n    release_limits[indexB] = release_steps.slice().reverse().find(step => step <= new_limit_B) || 0;\n}\n\n// Kontext aktualisieren\ncontext.set(\"release_limits\", release_limits);\n\n// Nachricht für den nächsten Schritt erstellen\nmsg.payload = {\n    vehicle_states: vehicle_states,\n    release_limits: release_limits,\n    schuko_load: schuko_load\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "0",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1070,
+        "y": 780,
+        "wires": [
+            [
+                "26b9f09de4e3efef",
+                "94af0d327a4101af"
+            ]
+        ]
+    },
+    {
+        "id": "26b9f09de4e3efef",
+        "type": "show-value",
+        "z": "7229b6fba68e3a96",
+        "g": "ba20dd17918c9ebb",
+        "name": "",
+        "path": "",
+        "x": 1090,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d71c901861272943",
+        "type": "delay",
+        "z": "7229b6fba68e3a96",
+        "g": "ba20dd17918c9ebb",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 880,
+        "y": 780,
+        "wires": [
+            [
+                "3f2efb1a09c4942b"
+            ]
+        ]
+    },
+    {
+        "id": "c50c1bcbd398507a",
+        "type": "rbe",
+        "z": "7229b6fba68e3a96",
+        "g": "ba20dd17918c9ebb",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1230,
+        "y": 880,
+        "wires": [
+            [
+                "1aac5fa2a5a677d7",
+                "11c76d1c609d5468",
+                "02311c64e525a06b",
+                "80354157a449e277",
+                "423e4ffa5b77273a"
+            ]
+        ]
+    },
+    {
+        "id": "94af0d327a4101af",
+        "type": "rbe",
+        "z": "7229b6fba68e3a96",
+        "g": "ba20dd17918c9ebb",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1230,
+        "y": 780,
+        "wires": [
+            [
+                "d6e9f68811f78f9c"
+            ]
+        ]
+    },
+    {
+        "id": "872b424daa77f047",
+        "type": "rbe",
+        "z": "7229b6fba68e3a96",
+        "g": "ba20dd17918c9ebb",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1230,
+        "y": 660,
+        "wires": [
+            [
+                "de85905a3f13cdbd"
+            ]
+        ]
+    },
+    {
+        "id": "423e4ffa5b77273a",
+        "type": "function",
+        "z": "7229b6fba68e3a96",
+        "g": "f4b3de4bf54d1a72",
+        "name": "function",
+        "func": "// Zugriff auf Inputs aus msg.payload (aktuelle Werte)\nlet schuko_load = msg.payload.schuko_load || [0, 0, 0];\n\n// Erstellen der Ausgabe-Nachricht\nmsg.payload = schuko_load;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1700,
+        "y": 1020,
+        "wires": [
+            [
+                "54d1acdbb8781bb3"
+            ]
+        ]
+    },
+    {
+        "id": "54d1acdbb8781bb3",
+        "type": "show-value",
+        "z": "7229b6fba68e3a96",
+        "g": "f4b3de4bf54d1a72",
+        "name": "",
+        "path": "",
+        "x": 1870,
+        "y": 1020,
+        "wires": [
+            [
+                "9e547fe00187423f"
+            ]
+        ]
+    },
+    {
+        "id": "9e547fe00187423f",
+        "type": "ui_text",
+        "z": "7229b6fba68e3a96",
+        "g": "f4b3de4bf54d1a72",
+        "group": "fd26729f1babb14a",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Schuko Load",
+        "format": "{{msg.payload[0]}} | {{msg.payload[1]}} | {{msg.payload[2]}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2090,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "de85905a3f13cdbd",
+        "type": "delay",
+        "z": "7229b6fba68e3a96",
+        "g": "ba20dd17918c9ebb",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1380,
+        "y": 660,
+        "wires": [
+            [
+                "1aac5fa2a5a677d7"
+            ]
+        ]
+    },
+    {
+        "id": "d6e9f68811f78f9c",
+        "type": "delay",
+        "z": "7229b6fba68e3a96",
+        "g": "ba20dd17918c9ebb",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1380,
+        "y": 780,
+        "wires": [
+            [
+                "1aac5fa2a5a677d7"
+            ]
+        ]
+    },
+    {
+        "id": "8b54ad743dfe26c3",
+        "type": "ui_group",
+        "name": "TYP2 1 -  Auto A",
+        "tab": "1f7a99dd9f147185",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "21a4fe8765dc26e7",
+        "type": "ui_group",
+        "name": "TYP2 2 - Auto B",
+        "tab": "1f7a99dd9f147185",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fd26729f1babb14a",
+        "type": "ui_group",
+        "name": "Werte einstellen",
+        "tab": "1f7a99dd9f147185",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6a064d2bbcdf1e8b",
+        "type": "ui_group",
+        "name": "Schukos",
+        "tab": "1f7a99dd9f147185",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8feb42048a638528",
+        "type": "ui_group",
+        "name": "Gesamtlast",
+        "tab": "1f7a99dd9f147185",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1f7a99dd9f147185",
+        "type": "ui_tab",
+        "name": "LaMa Lademanagement",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    }
+]
