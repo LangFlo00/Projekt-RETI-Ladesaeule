@@ -1,32 +1,122 @@
-Dieses Repository beinhaltet die Ergebnisse der Erweiterung einer Ladesäule an der HM für das Projekt RETI im SoSe25.
+\# RETI – Erweiterung einer Ladesäule
 
 
 
-Im Projekt wurde ein Kartenleser an die Ladesäule angebunden, um eine Authentifizierung für angemeldete User zu implementieren. Für den Kartenleser wurde eine Gehäuse designt. Für die Authentifizierung wurde eine SQL-Datenbank verwendet und die Datenbankabfragen und in Node-red eingebaut. Die gesamte Steuerung der Ladesäule findet über Node-RED statt. Das Herz der Ladesäule bildet ein Raspberry Pi mit einem Linux-Betriebssystem.
+Dieses Repository beinhaltet die Ergebnisse der Erweiterung einer Ladesäule an der HM im Rahmen des Projekts \*\*RETI im SoSe 2025\*\*.
 
 
 
-In der Ladesäule werden zwei EVSE-Laderegler verwendet, sodass die Ladesäule zwei Autos gleichzeitig laden kann. Auf der dritten Phase liegen zwei Schuko-Stecker. Über Messgeräte von Janitza und Eastron werden Spannungs, -strom und Leistungsdaten gemessen und in der Datenbank geloggt.
+\## Projektbeschreibung
 
 
 
-Sowohl das Anwendermanual als auch die Entwicklerdokumentation sind im Repo zu finden.
+Im Rahmen des Projekts wurde ein \*\*Kartenleser\*\* an die Ladesäule angebunden, um eine Authentifizierung für angemeldete Benutzer zu ermöglichen. Für den Kartenleser wurde ein eigenes Gehäuse konstruiert und gefertigt.
 
 
 
-Die Programmierung erfolgte über das grafische Flow-basierte Programmiertool Node-RED. Den Flow zum Projekt findet man im Ordner "Node-red".
+Für die Authentifizierung wird eine \*\*SQL-Datenbank\*\* verwendet. Die Datenbankabfragen sowie die Steuerung der Ladesäule wurden in \*\*Node-RED\*\* integriert.
 
 
 
-Im Ordner "3D-Druck" findet man die CAD-Dateien für die Bildschirmhalterung und die Halterung für den Kartenleser.
+Das Herzstück der Ladesäule bildet ein \*\*Raspberry Pi mit Linux-Betriebssystem\*\*, auf dem die gesamte Steuerung über Node-RED erfolgt.
 
 
 
-Projekte müssen an der HM auf der Projektvernissage vorgestellt werden. Die beinhaltet einen 60-sekündigen Pitch und Ausstellungsstand. Dokumente dazu im Ordner "Projektvernissage".
+Die Ladesäule verfügt über zwei \*\*EVSE-Laderegler\*\*, wodurch zwei Elektrofahrzeuge gleichzeitig geladen werden können. Zusätzlich befinden sich auf der dritten Phase zwei \*\*Schuko-Steckdosen\*\*.
 
 
 
-Die Dokumentation über beispielsweise die Konfiguration des Kartenlesers und Anwendungen für den Kartenleser sind im Ordner "Kartenleser\_TWN4DevPack492\_1" zu finden, wobei der Inhalt öffentlich zugängliche Daten von ELATEC sind.
+Zur Erfassung der elektrischen Messwerte werden Messgeräte von \*\*Janitza\*\* und \*\*Eastron\*\* eingesetzt. Dabei werden unter anderem Spannungs-, Strom- und Leistungsdaten erfasst und in der Datenbank protokolliert.
+
+
+
+\## Dokumentation
+
+
+
+Sowohl das \*\*Anwendermanual\*\* als auch die \*\*Entwicklerdokumentation\*\* sind in diesem Repository zu finden.
+
+
+
+\### Node-RED
+
+
+
+Die Programmierung der Ladesäule erfolgte mit \*\*Node-RED\*\*, einem grafischen, flow-basierten Programmiertool.
+
+
+
+Der für das Projekt verwendete Node-RED-Flow befindet sich im Ordner:
+
+
+
+```text
+
+Node-red/
+
+```
+
+
+
+\### 3D-Druck
+
+
+
+Im Ordner `3D-Druck/` befinden sich die CAD-Dateien für:
+
+
+
+\* die Bildschirmhalterung
+
+\* die Halterung für den Kartenleser
+
+
+
+\### Kartenleser
+
+
+
+Die Dokumentation zur Konfiguration und Anwendung des Kartenlesers befindet sich im Ordner:
+
+
+
+```text
+
+Kartenleser\_TWN4DevPack492\_1/
+
+```
+
+
+
+Der dort enthaltene Inhalt basiert auf öffentlich zugänglichen Daten des Herstellers \*\*ELATEC\*\*.
+
+
+
+\### Projektvernissage
+
+
+
+Projekte müssen an der HM im Rahmen der \*\*Projektvernissage\*\* vorgestellt werden. Diese beinhaltet einen 60-sekündigen Pitch sowie einen Ausstellungsstand.
+
+
+
+Die dazugehörigen Dokumente befinden sich im Ordner:
+
+
+
+```text
+
+Projektvernissage/
+
+```
+
+
+
+\## Bilder
+
+
+
+\### Verkabelung der Ladesäule
 
 
 
@@ -34,7 +124,15 @@ Die Dokumentation über beispielsweise die Konfiguration des Kartenlesers und An
 
 
 
+\### Einpoliger Schaltplan
+
+
+
 !\[Einpoliger Schaltplan der Ladesäule](Sonstiges/Bilder/Schaltplan\_einpolig.png)
+
+
+
+\### Komponenten der Ladesäule
 
 
 
@@ -42,5 +140,11 @@ Die Dokumentation über beispielsweise die Konfiguration des Kartenlesers und An
 
 
 
+\### Außenansicht der Ladesäule
+
+
+
 !\[Außenansicht der Ladesäule](Sonstiges/Bilder/Ladesaeule\_außen.png)
+
+
 
